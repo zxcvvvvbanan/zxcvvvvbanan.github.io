@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "Yongjun Cho"
-  text: "A VitePress Site"
+  text: "VFX Artist - FX"
   tagline: My great project tagline
   actions:
     - theme: brand
