@@ -16,10 +16,10 @@ hero:
 
 features:
   - title: USD friendly
-    details: Understands USD usage, troubleshoot basic problems
+    details: understands USD concepts, troubleshoot basic problems.
   - title: Houdini
-    details: delivers FX shots, HDA management 
+    details: handles the majority of FX shot context, HDA creation, as well as versioning and management.​
   - title: strong pipeline background
-    details: create script, GUI tool with PyQt, package management with REZ
+    details: create scripts on demand, GUI tool with PyQt, package management with REZ.
 ---
 
