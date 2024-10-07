@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Yongjun Cho"
   text: "VFX Artist - FX"
-  tagline: My great project tagline
+  tagline:
   actions:
     - theme: brand
       text: Markdown Examples
@@ -15,11 +15,11 @@ hero:
       link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: USD friendly
+    details: Understands USD usage, troubleshoot basic problems
+  - title: Houdini
+    details: delivers FX shots, HDA management 
+  - title: Pipeline background
+    details: create simple script, GUI tool with PyQt 
 ---
 
