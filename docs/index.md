@@ -4,22 +4,22 @@ layout: home
 
 hero:
   name: "Yongjun Cho"
-  text: "VFX Artist - FX"
+  text: "VFX Artist"
   tagline:
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Showreel
+      link: /showreel
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Blog
+      link: /blog
 
 features:
   - title: USD friendly
     details: Understands USD usage, troubleshoot basic problems
   - title: Houdini
     details: delivers FX shots, HDA management 
-  - title: Pipeline background
-    details: create simple script, GUI tool with PyQt 
+  - title: strong pipeline background
+    details: create script, GUI tool with PyQt 
 ---
 
