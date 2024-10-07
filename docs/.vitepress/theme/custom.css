@@ -2,17 +2,18 @@
 
 
 :root {
-  --vp-c-bg: #ffffff;
+  --vp-c-bg: #d1d1d1;
   --vp-c-bg-alt: #f6f6f7;
-  --vp-c-bg-elv: #ffffff;
-  --vp-c-bg-soft: #f6f6f7;
-  --vp-c-brand-1: #ffffff;
-  --vp-c-brand-2: #747bff;
+  --vp-c-bg-elv: #f0f0f0;
+  --vp-c-bg-soft: #e0e0e0;
+  --vp-c-brand-1: #3f9c2c;
+  --vp-c-brand-3: #3f9c2c;
+  --vp-c-brand-2: #28691b;
 }
 
 .dark {
-  --vp-c-bg: #1b1b1f;
-  --vp-c-bg-alt: #161618;
-  --vp-c-bg-elv: #202127;
-  --vp-c-bg-soft: #202127;
+  --vp-c-bg: #252525;
+  --vp-c-bg-alt: #292929;
+  --vp-c-bg-elv: #3d3d3d;
+  --vp-c-bg-soft: #181818;
 }
