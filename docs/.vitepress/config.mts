@@ -9,8 +9,8 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'About', link: '/markdown-examples' },
-      { text: 'Houdini', link: '/test'},
-      { text: 'Blog', link: '/houdini'} 
+      { text: 'Houdini', link: '/houdini'},
+      { text: 'Blog', link: '/blog'}//usd, projects
     ],
 
     sidebar: [
