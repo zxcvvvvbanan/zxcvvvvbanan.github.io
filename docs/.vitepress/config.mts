@@ -2,13 +2,15 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "My whh Project",
-  description: "A VitePress Site",
+  title: "Yongjun Cho",
+  description: "",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'About', link: '/markdown-examples' },
+      { text: 'Houdini', link: '/test'},
+      { text: 'Blog', link: '/houdini'} 
     ],
 
     sidebar: [
