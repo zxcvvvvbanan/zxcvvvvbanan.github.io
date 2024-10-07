@@ -13,6 +13,8 @@ hero:
     - theme: alt
       text: Blog
       link: /blog
+  image:
+    src: /logo.png
 
 features:
   - title: USD friendly
