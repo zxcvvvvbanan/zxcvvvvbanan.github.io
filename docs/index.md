@@ -20,6 +20,6 @@ features:
   - title: Houdini
     details: delivers FX shots, HDA management 
   - title: strong pipeline background
-    details: create script, GUI tool with PyQt 
+    details: create script, GUI tool with PyQt, package management with REZ
 ---
 
