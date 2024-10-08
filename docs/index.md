@@ -14,7 +14,7 @@ hero:
       text: Blog
       link: /blog
   image:
-    src: /logo.png
+    src: /images/me.JPG
 
 features:
   - title: USD friendly
