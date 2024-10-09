@@ -1,6 +1,6 @@
 ---
 outline: deep
-navbar: false
+sidebar: false
 ---
 
 # Showreel
