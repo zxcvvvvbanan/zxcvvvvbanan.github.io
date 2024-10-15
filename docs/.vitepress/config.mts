@@ -19,7 +19,7 @@ export default defineConfig({
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' },
-          { text: 'Runtime API Examples', link: '/houdini/python-houdini-basics' },
+          { text: 'Manage Houdini with Python', link: '/houdini/python-houdini-basics' },
           { text: 'Runtime API Examples', link: '/api-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' }
         ]
