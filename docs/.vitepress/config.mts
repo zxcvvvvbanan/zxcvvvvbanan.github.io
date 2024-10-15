@@ -28,7 +28,7 @@ export default defineConfig({
         text: 'Blog',
         items: [
           { text: 'Constraint 101', link: '/blog/Constraints' },
-          { text: 'Runtime API Examples', link: '/api-examples' },
+          { text: '경력기술서', link: '/blog/Experience' },
           { text: 'Runtime API Examples', link: '/houdini/python-houdini-basics' },
           { text: 'Runtime API Examples', link: '/api-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' }
