@@ -22,7 +22,7 @@ sticky: true
 
 #### File I/O 
 
-![An image](../images/FileIO.png)
+
 
 주요내용
 - 내부 툴에 대한 기능 추가 (이미지의 Renderfarm, Tweak 영역 모두, Cache path 란의 Author)
@@ -35,7 +35,6 @@ sticky: true
 
 #### 샷 Automation 툴
 
-![An image](../images/Butler.png)
 
 주요내용 
 - 프로그램 기획 및 개발
