@@ -28,20 +28,16 @@ export default defineConfig({
         text: 'Blog',
         items: [
           { text: 'Constraint 101', link: '/blog/Constraints' },
-          { text: '경력기술서', link: '/blog/Experience' },
-          { text: 'Runtime API Examples', link: '/houdini/python-houdini-basics' },
-          { text: 'Runtime API Examples', link: '/api-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: '경력기술서', link: '/blog/Experience' }
         ]
       },
       {
         text: 'FX',
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: '직무경험', link: '/blog/Experience' },
           { text: 'Runtime API Examples', link: '/houdini/python-houdini-basics' },
-          { text: 'Runtime API Examples', link: '/api-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'NULL', link: '/api-examples' },
+          { text: 'NULL', link: '/api-examples' }
         ]
       }
     ],

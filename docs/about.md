@@ -26,6 +26,11 @@ Specialized, enthusiastic VFX artist experienced in both FX and pipeline develop
 - 3D graphics frameworks : Pixar USD
 - Platforms : *nix
 
+#### Education
+
+2012-2019
+- Sejong University / Bachelor's degree, Computer Science
+
 # Works
 
 ```
