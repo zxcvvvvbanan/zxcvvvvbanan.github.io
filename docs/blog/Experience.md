@@ -26,7 +26,7 @@ sticky: true
 ![An image](../images/FileIO.png)
 
 주요내용
-- 내부 툴에 대한 기능 추가
+- 내부 툴에 대한 기능 추가 (이미지의 Renderfarm, Tweak 영역 모두, Cache path 란의 Author)
   - 랜더팜에 해당 job을 submit 하기 위해서 ropnet 내부 fetch 노드를 만들고 file cache 내부의 render rop을 연결해주어야 했으나
 이런 과정들을 모두 반자동화 하여 스크립트를 생성하고 배포하였습니다.
 
@@ -35,6 +35,8 @@ sticky: true
 - Pixar Tractor: 랜더팜에 job 을 submit 할 수 있습니다.
 
 #### 샷 Automation 툴
+
+![An image](../images/Butler.png)
 
 주요내용 
 - 프로그램 기획 및 개발
