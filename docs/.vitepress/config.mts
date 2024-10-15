@@ -35,7 +35,6 @@ export default defineConfig({
         text: 'FX',
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/houdini/python-houdini-basics' },
           { text: 'NULL', link: '/api-examples' },
           { text: 'NULL', link: '/api-examples' }
         ]
