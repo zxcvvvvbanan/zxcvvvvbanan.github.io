@@ -20,20 +20,23 @@ export default defineConfig({
           { text: 'Markdown Examples', link: '/markdown-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' },
           { text: 'Manage Houdini with Python', link: '/houdini/python-houdini-basics' },
-          { text: 'Runtime API Examples', link: '/api-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      },
-      {
-        text: 'Blog',
-        items: [
-          { text: 'Constraint 101', link: '/blog/Constraints' },
           { text: '경력기술서', link: '/blog/Experience' }
         ]
       },
       {
         text: 'FX',
         items: [
+          { text: 'Constraint 101', link: '/blog/Constraints' },
+          { text: 'Markdown Examples', link: '/markdown-examples' },
+          { text: 'NULL', link: '/api-examples' },
+          { text: 'NULL', link: '/api-examples' }
+        ]
+      },
+      {
+        text: 'Linux and stuff',
+        items: [
+          { text: 'Install Nvidia Driver on Rokcy', link: '/Linux/rockygpudriver' },
+          { text: 'Install SideFX Houdini on Rocky', link: '/Linux/installHoudini' },
           { text: 'Markdown Examples', link: '/markdown-examples' },
           { text: 'NULL', link: '/api-examples' },
           { text: 'NULL', link: '/api-examples' }
