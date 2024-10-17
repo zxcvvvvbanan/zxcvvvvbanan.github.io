@@ -1,25 +1,24 @@
 # Install Nvidia driver in Rocky 9.4
 
 ::: warning
-Written for specific Linux distribution Rocky (RHEL)
+Written for specific Rocky(RHEL) Linux distribution
 :::
 
 
 ## Intro
 
-I know. There are so many guides available online and there are different ways to install Nvidia drivers on Linux but this one does not require manually blocking Nouveau driver by editing modprobe.d and rebuilding kernel initramfs.
+Installing Nvidia driver by .run file is your option but unless you need specific driver version for your purpose, I found it kind of annoying 
+blocking nouveau, rebuilding initramfs, stopping lightdm service and etc.
 
-Moreover, when you install Nvidia driver by .run file, you have to stop lightdm service and etc.
+Since this is much simpler, give it a try. If it does not work, please refer better guides out there.
 
-Anyways, try this on your system, if it does not work, there are plenty guides out there.
-
-### Step 1. enable EPEL by install
+### Step 1. Enable EPEL
 
 ```
 sudo dnf install epel-release
 ```
 
-### Step 2.  add the official NVIDIA repository
+### Step 2. Add the official NVIDIA repo
 
 ```
 sudo dnf config-manager --add-repo https://developer.download.nvidia.com/compute/cuda/repos/rhel9/x86_64/cuda-rhel9.repo
