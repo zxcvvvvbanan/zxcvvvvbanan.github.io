@@ -30,6 +30,7 @@ Specialized, enthusiastic VFX artist experienced in both FX and pipeline develop
 
 2012-2019
 - Sejong University, Seoul
+
 Bachelor's degree in Computer Science
 
 # Works
