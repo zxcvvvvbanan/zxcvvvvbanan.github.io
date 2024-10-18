@@ -19,17 +19,18 @@ Specialized, enthusiastic VFX artist experienced in both FX and pipeline develop
 
 #### Qualifications
 
-- Dev tools : Git, Rez (Dependency Management)
-- DCC tools : SideFX Houdini, The Foundry Nuke
-- Languages : Python
-- UI frameworks : PyQT
-- 3D graphics frameworks : Pixar USD
-- Platforms : *nix
+- Dev tools: Git, Rez (Dependency Management)
+- DCC tools: SideFX Houdini, The Foundry Nuke
+- Languages: Python
+- UI frameworks: PyQT
+- Frameworks: Pixar USD
+- Platforms: *nix
 
 #### Education
 
 2012-2019
-- Sejong University / Bachelor's degree, Computer Science
+- Sejong University, Seoul
+ - Bachelor's degree, Computer Science
 
 # Works
 
