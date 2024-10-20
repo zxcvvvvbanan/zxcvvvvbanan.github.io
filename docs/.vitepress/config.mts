@@ -26,7 +26,8 @@ export default defineConfig({
         text: 'FX',
         items: [
           { text: 'Constraint 101', link: '/blog/Constraints' },
-          { text: 'Collider 101', link: '/blog/Constraints'}
+          { text: 'Collider 101', link: '/blog/Collider101'},
+          { text: 'Pyro 101', link: '/blog/Pyro101'}
         ]
       },
       {
@@ -45,8 +46,10 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Proxmox',
+        text: 'VM & CT',
         items: [
+          { text: 'Configure Proxmox', link: '/proxmox/installation' },
+          { text: 'Configure Docker in Linux', link: '/proxmox/docker' },
           { text: 'Install Proxmox', link: '/proxmox/installation' }
         ]
       },
