@@ -1,5 +1,4 @@
 import { defineConfig } from 'vitepress'
-import AutoSidebar from 'vite-plugin-vitepress-auto-sidebar';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -15,18 +14,40 @@ export default defineConfig({
       { text: 'Other', link: '/Linux/index'}//usd, projects
 
     ],
+
+    sidebar: [
+      {
+        text: 'Blog',
+        items: [
+          { text: 'Markdown Examples', link: '/markdown-examples' },
+          { text: 'Runtime API Examples', link: '/api-examples' },
+          { text: 'Manage Houdini with Python', link: '/houdini/python-houdini-basics' },
+          { text: '경력기술서', link: '/blog/Experience' }
+        ]
+      },
+      {
+        text: 'FX',
+        items: [
+          { text: 'Constraint 101', link: '/blog/Constraints' },
+          { text: 'Markdown Examples', link: '/markdown-examples' },
+          { text: 'NULL', link: '/api-examples' },
+          { text: 'NULL', link: '/api-examples' }
+        ]
+      },
+      {
+        text: 'Linux and stuff',
+        items: [
+          { text: 'Install Nvidia Driver (Rokcy)', link: '/Linux/rockygpudriver' },
+          { text: 'Install Houdini (Rocky)', link: '/Linux/installHoudini' },
+          { text: 'Configure Samba (Fedora)', link: '/Linux/samba_by_CLI' },
+          { text: 'Configure SSH (Fedora)', link: '/Linux/sshrocky' }
+        ]
+      }
+    ],
+
     socialLinks: [
       { icon: 'github', link: 'https://github.com/zxcvvvvbanan' },
       { icon: 'linkedin', link: 'https://www.linkedin.com/in/yongjuncho94'}
     ]
-  },
-  vite: {
-    plugins: [
-      // add plugin
-      AutoSidebar({
-        // You can also set options to adjust sidebar data
-        // see option document below
-      })
-    ]
-  },
+  }
 })
