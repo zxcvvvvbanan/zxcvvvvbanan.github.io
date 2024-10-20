@@ -11,7 +11,7 @@ export default defineConfig({
       { text: 'About', link: '/about' },
       { text: 'Blog', link: '/blog/index'},//usd, projects
       { text: 'Houdini', link: '/houdini/index'},
-      { text: 'Other', link: '/Linux/index'}//usd, projects
+      { text: 'Other', link: '/linux/index'}
 
     ],
 
@@ -23,43 +23,54 @@ export default defineConfig({
         ]
       },
       {
-        text: 'FX',
+        text: 'Houdini', // Nesting the following categories under 'Other'
         items: [
-          { text: 'Constraint 101', link: '/blog/Constraints' },
-          { text: 'Collider 101', link: '/blog/Collider101'},
-          { text: 'Pyro 101', link: '/blog/Pyro101'}
-        ]
+            {
+              text: 'FX',
+              items: [
+                { text: 'Constraint 101', link: '/blog/Constraints' },
+                { text: 'Collider 101', link: '/blog/Collider101'},
+                { text: 'Pyro 101', link: '/blog/Pyro101'}
+              ]
+            },
+            {
+              text: 'Python',
+              items: [
+                { text: 'Manage Houdini with Python', link: '/houdini/ManageNodewithPython' }
+              ]
+            }
+          ]
       },
       {
-        text: 'Python',
+        text: 'Other', // Nesting the following categories under 'Other'
         items: [
-          { text: 'Manage Houdini with Python', link: '/houdini/ManageNodewithPython' }
-        ]
-      },
-      {
-        text: 'Linux and stuff',
-        items: [
-          { text: 'Install Nvidia Driver (Rokcy)', link: '/Linux/rockygpudriver' },
-          { text: 'Install Houdini (Rocky)', link: '/Linux/installHoudini' },
-          { text: 'Configure Samba (Fedora)', link: '/Linux/samba_by_CLI' },
-          { text: 'Configure SSH (Fedora)', link: '/Linux/sshrocky' }
-        ]
-      },
-      {
-        text: 'VM & CT',
-        items: [
-          { text: 'Configure Proxmox', link: '/proxmox/installation' },
-          { text: 'Configure Docker in Linux', link: '/proxmox/docker' },
-          { text: 'Install Proxmox', link: '/proxmox/installation' }
-        ]
-      },
-      {
-        text: 'Personal',
-        items: [
-          { text: 'Install Proxmox', link: '/personal/para' }
+          {
+            text: 'Linux',
+            items: [
+              { text: 'Install Nvidia Driver (Rocky)', link: '/linux/rockygpudriver' },
+              { text: 'Install Houdini (Rocky)', link: '/linux/installHoudini' },
+              { text: 'Configure Samba (Fedora)', link: '/linux/samba_by_CLI' },
+              { text: 'Configure SSH (Fedora)', link: '/linux/sshrocky' }
+            ]
+          },
+          {
+            text: 'VM & CT',
+            items: [
+              { text: 'Install Proxmox', link: '/vmct/proxmoxInstall' },
+              { text: 'Configure Proxmox', link: '/proxmox/proxmoxConfigure' },
+              { text: 'Configure Docker in Linux', link: '/proxmox/docker' }
+            ]
+          },
+          {
+            text: 'Personal',
+            items: [
+              { text: 'PARA', link: '/personal/para' }
+            ]
+          }
         ]
       }
     ],
+
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/zxcvvvvbanan' },
