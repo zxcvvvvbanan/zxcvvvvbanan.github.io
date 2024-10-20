@@ -49,6 +49,12 @@ export default defineConfig({
         items: [
           { text: 'Install Proxmox', link: '/proxmox/installation' }
         ]
+      },
+      {
+        text: 'Personal',
+        items: [
+          { text: 'Install Proxmox', link: '/personal/para' }
+        ]
       }
     ],
 
