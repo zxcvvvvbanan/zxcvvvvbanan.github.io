@@ -1,7 +1,7 @@
-# Mount Samba in Fedora
+# Mount Network Drive through samba
 
 ::: warning
-Tested on Fedora Linux distribution
+Tested on Rocky Linux 9.4, Fedora Linux 40
 :::
 
 

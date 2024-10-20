@@ -1,7 +1,11 @@
+---
+Date: 2024-10-20
+---
+
 # Install SideFX Houdini in Rocky 9.4
 
 ::: warning
-Tested on Rocky Linux distribution
+Tested on Rocky Linux
 :::
 
 

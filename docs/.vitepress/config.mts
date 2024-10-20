@@ -19,9 +19,6 @@ export default defineConfig({
       {
         text: 'Blog',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' },
-          { text: 'Manage Houdini with Python', link: '/houdini/python-houdini-basics' },
           { text: '경력기술서', link: '/blog/Experience' }
         ]
       },
@@ -29,9 +26,13 @@ export default defineConfig({
         text: 'FX',
         items: [
           { text: 'Constraint 101', link: '/blog/Constraints' },
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'NULL', link: '/api-examples' },
-          { text: 'NULL', link: '/api-examples' }
+          { text: 'Collider 101', link: '/blog/Constraints'}
+        ]
+      },
+      {
+        text: 'Python',
+        items: [
+          { text: 'Manage Houdini with Python', link: '/houdini/ManageNodewithPython' }
         ]
       },
       {
@@ -41,6 +42,12 @@ export default defineConfig({
           { text: 'Install Houdini (Rocky)', link: '/Linux/installHoudini' },
           { text: 'Configure Samba (Fedora)', link: '/Linux/samba_by_CLI' },
           { text: 'Configure SSH (Fedora)', link: '/Linux/sshrocky' }
+        ]
+      },
+      {
+        text: 'Proxmox',
+        items: [
+          { text: 'Install Proxmox', link: '/proxmox/installation' }
         ]
       }
     ],
