@@ -1,23 +1,21 @@
 # Mount Samba in Debian
 
 ::: warning
-Tested on Debian Linux distribution
+Tested on Fedora Linux distribution
 :::
 
 
 ## Intro
 
-I have my workstation and server separated for multiple purpose. That remote server has Proxmox VE as host OS and I have installed Truenas and Debian for Docker and License Server purpose.
+I have my workstation and server separated for multiple purposes. Server has Proxmox VE as host OS and I have installed Truenas(VM 101) and Fedora(VM 102) for Docker, Syncthing, backup regular files from Linux, License server and etc.
 
-I needed to mount network drive on Debian but I got XFCE as desktop environment and it didn't come with fancy file explorer tool. 
-
-Let's do it with Terminal.
+I needed to mount network drive on Fedora but working through VNC was painful so I decided do it with terminal.
 
 
 ## Just make sure Samba can be provided by your OS
 
 ```
-sudo apt install smbclient samba
+dnf install samba samba-common samba-client
 ```
 
 
