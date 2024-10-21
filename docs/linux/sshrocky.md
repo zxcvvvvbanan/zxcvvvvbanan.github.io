@@ -63,7 +63,9 @@ Usually, this works on other distros, but since we're on an SELinux system, we n
 
 ## Allow SSH connections in SELinux
 
-Add a new port to the SELinux (Security-Enhanced Linux) policy to allow SSH connections:
+Add a new port to the SELinux policy to allow SSH connections
+
+Don't disable SELinux. Just add your port to SELinux and keep your system safer. 
 
 ```bash
 sudo semanage port -a -t ssh_port_t -p tcp {YOUR PORT NUMBER}
