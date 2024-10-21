@@ -21,19 +21,19 @@ systemctl start sshd.service
 
 ## Change the default port
 
-Open the SSH configuration file:
+Open the SSH configuration file
 
 ```bash
 sudo vi /etc/ssh/sshd_config
 ```
 
-## Find and locate to the following line:
+## Find and locate to the following line
 
 ```bash
 #Port 22
 ```
 
-## Remove the `#` and change the port number:
+## Remove the `#` and change the port number
 
 ```bash
 Port {YOUR PORT NUMBER}
