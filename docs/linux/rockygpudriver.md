@@ -7,10 +7,10 @@ Written for specific Rocky(RHEL) Linux distribution
 
 ## Intro
 
-Installing Nvidia driver by .run file is your option but unless you need specific driver version for your purpose, I found it kind of annoying 
+Installing Nvidia driver by .run file is your another option but unless you need specific driver version for your purpose, I found it annoying 
 blocking nouveau, rebuilding initramfs, stopping lightdm service and etc.
 
-Since this is much simpler, give it a try. If it does not work, please refer better guides out there.
+This seems much simpler at least to me. Give it a try.
 
 ### Step 1. Enable EPEL
 
