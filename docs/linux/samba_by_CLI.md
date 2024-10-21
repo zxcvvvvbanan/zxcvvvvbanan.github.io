@@ -7,12 +7,14 @@ Tested on Rocky Linux 9.4, Fedora Linux 40
 
 ## Intro
 
-I have my workstation and server separated for multiple purposes. Server has Proxmox VE as host OS and I have installed Truenas(VM 101) and Fedora(VM 102) for Docker, Syncthing, backup regular files from Linux, License server and etc.
+I have my workstation and server separated for multiple purposes. Server has Proxmox as host OS to run two VMs (Truenas and Fedora). 
 
-I needed to mount network drive on Fedora but working through VNC was painful so I decided do it with terminal.
+Linux mainly for Docker, Syncthing, backup regular files from Linux, license server and etc. Some could be done by just creating container in Proxmox. 
+
+Anyways, I wanted to mount network drive on Fedora through terminal since no display manager is installed.
 
 
-## Just make sure Samba can be provided by your OS
+## Make sure Samba can be provided by your OS
 
 ```
 dnf install samba samba-common samba-client
@@ -42,7 +44,7 @@ sudo smbclient //192.168.100.18/directory -U jim
 Result,
 
 ```
-slave@slave:~$ sudo smbclient //TRUENAS/directory -U jim
+*@*:~$ sudo smbclient //TRUENAS/directory -U jim
 Password for [WORKGROUP\jim]:
 Try "help" to get a list of possible commands.
 smb: \> ls
@@ -58,13 +60,13 @@ smb: \> ls
                 1880999936 blocks of size 1024. 1528222592 blocks available
 ```
 
-### Mount it
+### Make directory to mount
 
 ```
 mkdir /mnt/smb_share
 ```
 
-make sure you put server ip. Name does not work.
+### Mount
 
 
 ```
@@ -80,6 +82,6 @@ Now, cd /mnt/truenas
 Check the result,
 
 ```
-slave@slave:/mnt/truenas$ ls
+*@*:/mnt/truenas$ ls
 02_Photo  05_Backup  blog_asssets Illustrator  jim  Tutorial
 ```
