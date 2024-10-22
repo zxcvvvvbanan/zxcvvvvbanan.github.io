@@ -130,7 +130,6 @@ Hard Constraint 의 @constraint_type을 포함하여 Stiffness, Propagation Rate
 | 끊어질 수 있는가  | 특별 조건을 주는 한  | 특별 조건을 주는 한 | 외부의 힘으로 |
 | 유연한가  | 아주 딱딱함  | stiffness 조절로 탄성 조절 가능 | 끊어지지 않는 한 |
 | 대표 속성  | s@constraint_type  | s@constraint_type, @stiffness | @strength |
-```
+
 
 ![](../assets/blog/pics/const_all.gif)
-```
