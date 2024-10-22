@@ -31,13 +31,14 @@ Downloading Launcher may differ and will not covered in this post.
 
 ## Unzip your tar.gz
 
-```
+```bash
 tar -xzvf houdini-20.*-linux_x86_64_gcc11.2.tar.gz
 ```
 
 ## Locate to unzip folder and run the script
 
-```
+```bash
+cd houudini*
 ./houdini.install
 ```
 
@@ -86,17 +87,19 @@ Below will solve the problem.
 :::danger
 Do not disable your SELinux.
 
-sesinetd can still work in enforced mode.
+sesinetd can still work in'Enforced' mode.
 
 Set it to at least 'Permissive'
 :::
 
 Register your service to systemd if not.
 
-```
+```bash
 sudo cp /usr/lib/sesi/sesinetd.service /etc/systemd/system/
-sudo systemctl enable sesinetd.service
+sudo systemctl enable sesinetd.
 ```
+
+
 
 #### Result
 ```
@@ -110,9 +113,11 @@ Now enable your service
 sudo systemctl enable sesinetd.service
 ```
 
-### Wayland ! Move to X11
+### Change Wayland to X11
 
-Houdini will crash on Wayland windowing system. Change to X11
+As of Oct 2024, Houdini will crash on Wayland windowing system.
+
+Change to X11
 
 ```bash
 sudo vim /etc/gdm/custom.conf
