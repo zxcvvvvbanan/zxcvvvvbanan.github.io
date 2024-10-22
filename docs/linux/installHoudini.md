@@ -15,7 +15,7 @@ To whom it may concern.
 
 You have chosen difficult way to do get your work done.
 
-Jokes aside, doing your stuff in different environment might help you through your career especially when
+Getting your stuff done in various environment might help you through your career especially when
 troubleshooting. 
 
 So, I would say it is a good choice!
@@ -38,7 +38,7 @@ tar -xzvf houdini-20.*-linux_x86_64_gcc11.2.tar.gz
 ## Locate to unzip folder and run the script
 
 ```bash
-cd houudini*
+cd houdini*
 ./houdini.install
 ```
 
@@ -50,7 +50,6 @@ Hit spacebar to down scroll license agreement
 :::
 
 ```
-
         SIDE EFFECTS SOFTWARE HOUDINI 20.5.370 INSTALLATION
 
     The installer is not being run as root.  You may not be able to
@@ -77,6 +76,8 @@ Do you agree to the above license terms? [yes or no] yes
 ### Other RHEL distros
 
 Might require libGLU or libxcb.
+
+apt or dnf install it :)
 
 
 ### Fedora
