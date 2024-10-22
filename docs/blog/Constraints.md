@@ -26,7 +26,7 @@ author:
 두 상자가 놓여져 있다고 가정하고 우리는 이 상자들을 piece 0, piece 1 지오메트리라 부르겠습니다.
 @name="piece0" 는 pack 된 지오메트리 이기 때문에 포인트 레벨의 어트리뷰트입니다. 기억해주세요. 
 
-![](./docs/assets/blog/pics/const3.png)
+![](../assets/blog/pics/const3.png)
 
 그리고 두 상자를 이어주는 끈이 있습니다. 이것을 Constraint 라 부르겠습니다.
 @constraint_name="Hard" 는 primitive 레벨에 위치합니다.
