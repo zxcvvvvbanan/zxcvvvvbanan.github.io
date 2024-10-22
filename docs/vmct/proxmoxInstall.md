@@ -1,7 +1,12 @@
 
-# Setting SSH on Fedora
+# Install Proxmox and Basic Configs
 
-::: warning
-Tested on Fedora Linux
-:::
+Download Rufus
 
+Grab Image anx burn it to your USB
+
+Install
+
+
+
+Passthrough your hard drive to VM
