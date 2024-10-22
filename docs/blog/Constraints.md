@@ -21,7 +21,7 @@ author:
 
 :::
 
-### r (Assumption)
+### 가정
 
 두 상자가 놓여져 있다고 가정하고 우리는 이 상자들을 piece 0, piece 1 지오메트리라 부르겠습니다.
 @name="piece0" 는 pack 된 지오메트리 이기 때문에 포인트 레벨의 어트리뷰트입니다. 기억해주세요. 
@@ -59,7 +59,7 @@ Hard Constraint 에는 @restlength 가 필요합니다. restlength는 두 물체
 
 가정에서 구성한바와 동일하게 만들고 재생을 하면?
 
-![지오메트리의 centroid 와 constraint이 잘 붙어있음을 보여주기 위해 하나는 x-ray 처럼 보이게 하였습니다.](../assets/blog/pics/hou/rbd_0.gif)
+![지오메트리의 centroid 와 constraint이 잘 붙어있음을 보여주기 위해 하나는 x-ray 처럼 보이게 하였습니다.](../assets/blog/pics/rbd_0.gif)
 
 아주 간단하고 기본적인 constraint를 포함한 rigid body simulation이 완성되었습니다.
 
