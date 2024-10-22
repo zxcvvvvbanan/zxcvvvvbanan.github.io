@@ -46,7 +46,7 @@ cd houdini*
 
 Installer requires sudo permission, go ahead and install.
 :::tip
-Hit spacebar to down scroll license agreement
+Hit spacebar to rapidly scroll down license agreement
 :::
 
 ```
@@ -55,7 +55,7 @@ Hit spacebar to down scroll license agreement
     The installer is not being run as root.  You may not be able to
     install the desired features unless the installer is run as root.
     
-    Re-run installer as root (y or n) ==> 
+    Re-run installer as root (y or n) ==> y // [!code focus]
 
 ...
 
@@ -67,7 +67,7 @@ Hit spacebar to down scroll license agreement
 to consent to any relocation of the License from the dedicated
 Computer or License Server beyond the number expressly permitted
 above, in its sole and absolute discretion.
-Do you agree to the above license terms? [yes or no] yes 
+Do you agree to the above license terms? [yes or no] yes // [!code focus]
 
 ```
 
