@@ -2,12 +2,13 @@
 Date: 2024-10-20
 ---
 
-# Install SideFX Houdini in Rocky 9.4
 
 ::: warning
-Tested on Rocky Linux
+Tested on Rocky, Fedora Linux
 :::
 
+
+# Install SideFX Houdini in Rocky 9.4
 
 ## Intro
 
@@ -77,7 +78,11 @@ Do you agree to the above license terms? [yes or no] yes // [!code focus]
 
 Might require libGLU or libxcb.
 
-apt or dnf install it :)
+In case of libXss.so.1 missing, go ahead install libXScrnSaver
+
+```bash
+sudo dnf install libXScrnSaver-devel
+```
 
 
 ### Fedora
@@ -87,10 +92,7 @@ Below will solve the problem.
 
 :::danger
 Do not disable your SELinux.
-
-sesinetd can still work in'Enforced' mode.
-
-Set it to at least 'Permissive'
+Sesinetd can still work in'Enforced' mode.
 :::
 
 Register your service to systemd if not.
@@ -110,7 +112,7 @@ Created symlink /etc/systemd/system/multi-user.target.wants/sesinetd.service →
 ```
 
 Now enable your service 
-```
+```bash
 sudo systemctl enable sesinetd.service
 ```
 

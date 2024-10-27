@@ -48,7 +48,7 @@ export default defineConfig({
             text: 'Linux',
             items: [
               { text: 'Install Nvidia Driver (Rocky)', link: '/linux/rockygpudriver' },
-              { text: 'Install Houdini (Rocky)', link: '/linux/installHoudini' },
+              { text: 'Install Houdini', link: '/linux/installHoudini' },
               { text: 'Configure Samba (Fedora)', link: '/linux/samba_by_CLI' },
               { text: 'Configure SSH (Fedora)', link: '/linux/sshrocky' }
             ]

@@ -16,7 +16,7 @@ Anyways, I wanted to mount network drive on Fedora through terminal since no dis
 
 ## Make sure Samba can be provided by your OS
 
-```
+```bash
 dnf install samba samba-common samba-client
 ```
 
@@ -27,13 +27,13 @@ SAMBA SHARE PATH would be path you set on Truenas. Refer to your Truenas setting
 USERNAME: your truenas user who has access to shared path above
 
 
-```
+```bash
 sudo smbclient {SAMBA SHARES PATH} -U {USERNAME}
 ```
 
 In my case, it was
 
-```
+```bash
 sudo smbclient //TRUENAS/directory -U jim
 
 or
@@ -43,7 +43,7 @@ sudo smbclient //192.168.100.18/directory -U jim
 
 Result,
 
-```
+```bash
 *@*:~$ sudo smbclient //TRUENAS/directory -U jim
 Password for [WORKGROUP\jim]:
 Try "help" to get a list of possible commands.
@@ -62,18 +62,18 @@ smb: \> ls
 
 ### Make directory to mount
 
-```
+```bash
 mkdir /mnt/smb_share
 ```
 
 ### Mount
 
 
-```
+```bash
 mount -t cifs //[server-ip]/[share-path] /[mount-point]
 ```
 
-```
+```bash
 sudo mount -t cifs -o username=jim //192.168.100.18/directory /mnt/truenas
 ```
 
@@ -81,7 +81,7 @@ Now, cd /mnt/truenas
 
 Check the result,
 
-```
+```bash
 *@*:/mnt/truenas$ ls
 02_Photo  05_Backup  blog_asssets Illustrator  jim  Tutorial
 ```
