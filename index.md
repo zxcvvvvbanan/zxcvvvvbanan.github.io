@@ -31,7 +31,7 @@ import formatDate from '/.vitepress/theme/utils/formatDate';
 ## Recent Posts
 
 <ul>
-  <li v-for="post of posts.slice(0,3)">
+  <li v-for="post of posts.slice(0,4)">
       <strong><a :href="post.url">{{ post.frontmatter.title }}</a></strong><br/>
       <span>{{ formatDate( post.frontmatter.date ) }}</span>
   </li>
@@ -75,7 +75,7 @@ ul {
     list-style-type: none;
     padding-left: 0;
     font-size: 1.2rem;
-    line-height: 0.6;
+    line-height: 1;
 }
 
 li {
