@@ -44,6 +44,27 @@ Built using [Vitepress](https://vitepress.dev) and [Vue.js](https://vuejs.org).
 
 Refer to github repository. I am not a front-end developer so this is configured with least plugins. This may be good reference to beginners.
 
+### Main Stack:
+
+<p align="left" style="display: flex; gap: 4px;">
+  <img src="/assets/icon/houdini.svg" width="48" height="48"/>
+  <img src="/assets/icon/usd.svg" width="48" height="48"/>
+  <img src="https://skillicons.dev/icons?i=py&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=qt&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=linux&theme=dark"/>  
+  <img src="https://skillicons.dev/icons?i=git&theme=dark"/>
+</p>
+
+### Fun Stack:
+
+<p align="left" style="display: flex; gap: 4px;">
+  <img src="https://skillicons.dev/icons?i=vite&theme=dark"/>
+  <img src="https://skillicons.dev/icons?i=vscode&theme=dark"/>
+  <img src="https://skillicons.dev/icons?i=vim&theme=dark"/>
+  <img src="https://skillicons.dev/icons?i=docker&theme=dark"/>
+  <img src="https://skillicons.dev/icons?i=obsidian&theme=dark"/>
+</p>
+
 
 <style scoped>
 ul {
