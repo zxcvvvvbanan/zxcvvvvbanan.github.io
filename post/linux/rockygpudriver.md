@@ -1,3 +1,9 @@
+---
+title: Install Nvidia driver
+date: 2024-5-02T19:41:00Z
+---
+
+
 #### Intro
 
 Installing Nvidia driver by .run file is your another option but unless you need specific driver version for your purpose, I found it annoying 

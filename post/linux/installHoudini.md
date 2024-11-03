@@ -1,5 +1,6 @@
 ---
-Date: 2024-10-20
+title: Install SideFX Houdini
+date: 2024-07-02T19:41:00Z
 ---
 
 

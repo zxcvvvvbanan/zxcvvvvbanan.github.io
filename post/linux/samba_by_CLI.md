@@ -1,3 +1,8 @@
+---
+title: Mount Network Drive through samba
+date: 2024-01-02T19:41:00Z
+---
+
 # Mount Network Drive through samba
 
 ::: warning
