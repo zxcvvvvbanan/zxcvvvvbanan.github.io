@@ -1,5 +1,4 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
 hero:
@@ -9,10 +8,10 @@ hero:
   actions:
     - theme: brand
       text: Showreel
-      link: /showreel
+      link: /post/showreel
     - theme: alt
       text: Blog
-      link: /blog
+      link: /post/blog
 
 features:
   - title: USD friendly

@@ -9,9 +9,9 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'About', link: '/about' },
-      { text: 'Blog', link: '/blog/index'},//usd, projects
-      { text: 'Houdini', link: '/houdini/index'},
-      { text: 'Other', link: '/linux/index'}
+      { text: 'Blog', link: '/post/blog/index'},//usd, projects
+      { text: 'Houdini', link: '/post/houdini/index'},
+      { text: 'Other', link: '/post/linux/index'}
 
     ],
 
@@ -19,7 +19,7 @@ export default defineConfig({
       {
         text: 'Blog',
         items: [
-          { text: '경력기술서', link: '/blog/Experience' }
+          { text: '경력기술서', link: '/post/blog/Experience' }
         ]
       },
       {
@@ -28,15 +28,15 @@ export default defineConfig({
             {
               text: 'FX',
               items: [
-                { text: 'Constraint 101', link: '/blog/Constraints' },
-                { text: 'Collider 101', link: '/blog/Collider101'},
-                { text: 'Pyro 101', link: '/blog/Pyro101'}
+                { text: 'Constraint 101', link: '/post/blog/Constraints' },
+                { text: 'Collider 101', link: '/post/blog/Collider101'},
+                { text: 'Pyro 101', link: '/post/blog/Pyro101'}
               ]
             },
             {
               text: 'Python',
               items: [
-                { text: 'Manage Houdini with Python', link: '/houdini/ManageNodewithPython' }
+                { text: 'Manage Houdini with Python', link: '/post/houdini/ManageNodewithPython' }
               ]
             }
           ]
@@ -47,16 +47,16 @@ export default defineConfig({
           {
             text: 'Linux',
             items: [
-              { text: 'Install Nvidia Driver (Rocky)', link: '/linux/rockygpudriver' },
-              { text: 'Install Houdini', link: '/linux/installHoudini' },
-              { text: 'Configure Samba (Fedora)', link: '/linux/samba_by_CLI' },
-              { text: 'Configure SSH (Fedora)', link: '/linux/sshrocky' }
+              { text: 'Install Nvidia Driver (Rocky)', link: '/post/linux/rockygpudriver' },
+              { text: 'Install Houdini', link: '/post/linux/installHoudini' },
+              { text: 'Configure Samba (Fedora)', link: '/post/linux/samba_by_CLI' },
+              { text: 'Configure SSH (Fedora)', link: '/post/linux/sshrocky' }
             ]
           },
           {
             text: 'VM & CT',
             items: [
-              { text: 'Install Proxmox', link: '/vmct/proxmoxInstall' },
+              { text: 'Install Proxmox', link: '/post/vmct/proxmoxInstall' },
               { text: 'Configure Proxmox', link: '/proxmox/proxmoxConfigure' },
               { text: 'Configure Docker in Linux', link: '/proxmox/docker' }
             ]
@@ -64,7 +64,7 @@ export default defineConfig({
           {
             text: 'Personal',
             items: [
-              { text: 'PARA', link: '/personal/para' }
+              { text: 'PARA', link: '/post/personal/para' }
             ]
           }
         ]

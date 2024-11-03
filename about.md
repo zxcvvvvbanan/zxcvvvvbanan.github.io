@@ -3,7 +3,6 @@ title: About Me
 
 home: true
 portfolio: true
-bgImage: '/assets/images/me.jpg'
 #heroFullScreen: true
 sidebar: false
 ---
