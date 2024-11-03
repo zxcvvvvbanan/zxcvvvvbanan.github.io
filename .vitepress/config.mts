@@ -9,9 +9,9 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'About', link: '/about' },
-      { text: 'Blog', link: '/post/blog'},//usd, projects
-      { text: 'Houdini', link: '/post/houdini'},
-      { text: 'Other', link: '/post/linux'}
+      { text: 'Blog', link: '/post/blog/'},
+      { text: 'Houdini', link: '/post/houdini/'},
+      { text: 'Other', link: '/post/linux/'}
 
     ],
 
