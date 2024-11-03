@@ -47,25 +47,23 @@ Built using [Vitepress](https://vitepress.dev) and [Vue.js](https://vuejs.org).
 More on [About Me](about.md)
 
 ### Main Stacks:
-
-<p align="left" style="display: flex; gap: 4px;">
-  <img src="/assets/icon/houdini.svg" width="48" height="48"/>
-  <img src="/assets/icon/usd.svg" width="48" height="48"/>
-  <img src="/assets/icon/nuke.svg" width="48" height="48"/>
-  <img src="https://skillicons.dev/icons?i=py&theme=dark" />
-  <img src="https://skillicons.dev/icons?i=qt&theme=dark" />
-  <img src="https://skillicons.dev/icons?i=linux&theme=dark"/>  
-  <img src="https://skillicons.dev/icons?i=git&theme=dark"/>
+<p align="left" style="display: flex; gap: 4px; flex-wrap: wrap;">
+  <a href="#" style="display: block; word-break: break-word;"><img src="/assets/icon/houdini.svg" width="48" height="48"/></a>
+  <a href="#" style="display: block; word-break: break-word;"><img src="/assets/icon/usd.svg" width="48" height="48"/></a>
+  <a href="#" style="display: block; word-break: break-word;"><img src="/assets/icon/nuke.svg" width="48" height="48"/></a>
+  <a href="#" style="display: block; word-break: break-word;"><img src="https://skillicons.dev/icons?i=py&theme=dark" /></a>
+  <a href="#" style="display: block; word-break: break-word;"><img src="https://skillicons.dev/icons?i=qt&theme=dark" /></a>
+  <a href="#" style="display: block; word-break: break-word;"><img src="https://skillicons.dev/icons?i=linux&theme=dark"/></a>
+  <a href="#" style="display: block; word-break: break-word;"><img src="https://skillicons.dev/icons?i=git&theme=dark"/></a>
 </p>
 
 ### Fun Stacks:
 
-<p align="left" style="display: flex; gap: 4px;">
-  <img src="https://skillicons.dev/icons?i=vite&theme=dark"/>
-  <img src="/assets/icon/proxmox.svg" width="48" height="48"/>
-  <img src="https://skillicons.dev/icons?i=vscode&theme=dark"/>
-  <img src="https://skillicons.dev/icons?i=vim&theme=dark"/>
-  <img src="https://skillicons.dev/icons?i=docker&theme=dark"/>
-  <img src="https://skillicons.dev/icons?i=obsidian&theme=dark"/>
+<p align="left" style="display: flex; gap: 4px; flex-wrap: wrap;">
+  <a href="#" style="display: block; word-break: break-word;"><img src="https://skillicons.dev/icons?i=vite&theme=dark"/></a>
+  <a href="#" style="display: block; word-break: break-word;"><img src="/assets/icon/proxmox.svg" width="48" height="48"/></a>
+  <a href="#" style="display: block; word-break: break-word;"><img src="https://skillicons.dev/icons?i=vscode&theme=dark"/></a>
+  <a href="#" style="display: block; word-break: break-word;"><img src="https://skillicons.dev/icons?i=vim&theme=dark"/></a>
+  <a href="#" style="display: block; word-break: break-word;"><img src="https://skillicons.dev/icons?i=docker&theme=dark"/></a>
+  <a href="#" style="display: block; word-break: break-word;"><img src="https://skillicons.dev/icons?i=obsidian&theme=dark"/></a>
 </p>
-
