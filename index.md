@@ -23,3 +23,44 @@ features:
     details: create scripts on demand, GUI tool with PyQt, package management with Rez. Fluent working in *nix, Win, Mac environment.
 ---
 
+<script setup>
+    
+import { data as posts } from './posts.data'
+import formatDate from '/.vitepress/theme/utils/formatDate';
+</script>
+
+## Recent Posts
+
+<ul>
+    <li v-for="post of posts.slice(0,3)">
+        <strong><a :href="post.url">{{ post.frontmatter.title }}</a></strong><br/>
+        <span>{{ formatDate( post.frontmatter.date ) }}</span>
+    </li>
+</ul>
+
+## Colophon
+
+Built using [Vitepress](https://vitepress.dev) and [Vue.js](https://vuejs.org).
+
+Refer to github repository. I am not a front-end developer so this is configured with least plugins. This may be good reference to beginners.
+
+
+<style scoped>
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 1.2rem;
+    line-height: 1.1;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+}
+
+li span {
+    font-family: var(--vp-font-family-mono);
+    font-size: var(--vp-code-font-size);
+    color: var(--vp-c-font-color);
+}
+</style>

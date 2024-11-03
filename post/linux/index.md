@@ -9,7 +9,8 @@ import { data as posts } from './posts.data'
 import formatDate from '/.vitepress/theme/utils/formatDate';
 </script>
 
-# Posts
+## Linux Posts
+
 <ul>
     <li v-for="post of posts">
         <strong><a :href="post.url">{{ post.frontmatter.title }}</a></strong><br/>
@@ -17,12 +18,14 @@ import formatDate from '/.vitepress/theme/utils/formatDate';
     </li>
 </ul>
 
+
+
 <style scoped>
 ul {
     list-style-type: none;
     padding-left: 0;
-    font-size: 1.125rem;
-    line-height: 1.75;
+    font-size: 1.4rem;
+    line-height: 3;
 }
 
 li {
@@ -33,6 +36,6 @@ li {
 li span {
     font-family: var(--vp-font-family-mono);
     font-size: var(--vp-code-font-size);
-    font-color: var()
+    color: var(--vp-c-font-color);
 }
 </style>

@@ -1,6 +1,5 @@
 ---
 title: About Me
-
 home: true
 portfolio: true
 #heroFullScreen: true

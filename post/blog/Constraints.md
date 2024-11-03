@@ -1,15 +1,8 @@
 ---
-date: 2024-09-03
-category:
-  - FX  
-tag:
-  - Houdini
-  - FX
-  - encryption
-author:
-  - Yongjun Cho
-
+title: Constaints and RBD 101
+date: 2024-01-02T19:41:00Z
 ---
+
 
 # Constaints and RBD 101
 
