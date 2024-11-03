@@ -7,8 +7,9 @@ hero:
   tagline:
   actions:
     - theme: brand
-      text: Showreel
-      link: /post/showreel
+      text: Houdini
+      link: /post/houdini
+      
     - theme: alt
       text: Blog
       link: /post/blog
