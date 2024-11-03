@@ -2,11 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  markdown: {
-    languageAlias: {
-      'vex': 'C'
-    }
-  }, 
+
   title: "Yongjun Cho",
   description: "",
   themeConfig: {
@@ -76,6 +72,11 @@ export default defineConfig({
       }
     ],
 
+  markdown: {
+    languageAlias: {
+      'vex': 'C'
+    }
+  }
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/zxcvvvvbanan' },
