@@ -77,12 +77,6 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/zxcvvvvbanan' },
       { icon: 'linkedin', link: 'https://www.linkedin.com/in/yongjuncho94'}
     ]
-  },
-
-  markdown: {
-    languageAlias: {
-      'vex': 'C'
-    }
   }
 
 })
