@@ -3,7 +3,6 @@ layout: home
 
 hero:
   name: "Yongjun Cho"
-  text: "Your 'Wish You Were Here' VFX Artist"
   actions:
     - theme: brand
       text: Houdini
