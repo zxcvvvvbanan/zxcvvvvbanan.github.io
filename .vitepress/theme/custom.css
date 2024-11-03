@@ -25,3 +25,41 @@
   line-height: 32px !important;
   font-weight: 500 !important;
 }
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+}
+
+li a {
+  display: block;  /* 링크를 블록 레벨로 변경 */
+  word-break: break-word;  /* 긴 제목이 있을 경우 줄바꿈 */
+}
+
+li span {
+  font-family: var(--vp-font-family-mono);
+  font-size: var(--vp-code-font-size);
+  color: var(--vp-c-font-color);
+}
+
+@media (max-width: 768px) {
+  ul {
+      font-size: 1rem;  /* 모바일에서 더 작은 폰트 크기 */
+  }
+
+  li {
+      flex-direction: column;  /* 모바일에서는 세로로 정렬 */
+      margin-bottom: 1.2rem;
+  }
+
+  li span {
+      font-size: 0.9rem;  /* 날짜 텍스트 크기 조정 */
+  }
+}

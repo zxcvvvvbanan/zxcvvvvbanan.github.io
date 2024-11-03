@@ -22,8 +22,8 @@ features:
     details: create scripts on demand, GUI tool with PyQt, package management with Rez. Fluent working in *nix, Win, Mac environment.
 ---
 
+
 <script setup>
-    
 import { data as posts } from './posts.data'
 import formatDate from '/.vitepress/theme/utils/formatDate';
 </script>
@@ -69,23 +69,3 @@ More on [About Me](about.md)
   <img src="https://skillicons.dev/icons?i=obsidian&theme=dark"/>
 </p>
 
-
-<style scoped>
-ul {
-    list-style-type: none;
-    padding-left: 0;
-    font-size: 1.2rem;
-    line-height: 1;
-}
-
-li {
-    display: flex;
-    justify-content: space-between;
-}
-
-li span {
-    font-family: var(--vp-font-family-mono);
-    font-size: var(--vp-code-font-size);
-    color: var(--vp-c-font-color);
-}
-</style>
