@@ -26,20 +26,20 @@ author:
 두 상자가 놓여져 있다고 가정하고 우리는 이 상자들을 piece 0, piece 1 지오메트리라 부르겠습니다.
 @name="piece0" 는 pack 된 지오메트리 이기 때문에 포인트 레벨의 어트리뷰트입니다. 기억해주세요. 
 
-![](../assets/blog/pics/const3.png)
+![](../../assets/blog/pics/const3.png)
 
 그리고 두 상자를 이어주는 끈이 있습니다. 이것을 Constraint 라 부르겠습니다.
 @constraint_name="Hard" 는 primitive 레벨에 위치합니다.
 
-![](../assets/blog/pics/const1.png)
+![](../../assets/blog/pics/const1.png)
 
 constraint 끈의 양 끝에 점들이 있겠죠? 이 두 point 들의 point attribute 인 @name을 지어줍니다.
 
-![](../assets/blog/pics/const2.png)
+![](../../assets/blog/pics/const2.png)
 
 자 이제.. 시작해볼까요?
 
-![](../assets/blog/pics/const4.png)
+![](../../assets/blog/pics/const4.png)
 
 
 ### Basics and Simulation
@@ -59,7 +59,7 @@ Hard Constraint 에는 @restlength 가 필요합니다. restlength는 두 물체
 
 가정에서 구성한바와 동일하게 만들고 재생을 하면?
 
-![지오메트리의 centroid 와 constraint이 잘 붙어있음을 보여주기 위해 하나는 x-ray 처럼 보이게 하였습니다.](../assets/blog/pics/rbd_0.gif)
+![지오메트리의 centroid 와 constraint이 잘 붙어있음을 보여주기 위해 하나는 x-ray 처럼 보이게 하였습니다.](../../assets/blog/pics/rbd_0.gif)
 
 아주 간단하고 기본적인 constraint를 포함한 rigid body simulation이 완성되었습니다.
 
@@ -69,7 +69,7 @@ Hard Constraint 에는 @restlength 가 필요합니다. restlength는 두 물체
 constraint 는 해당 포인트와 packed primitive의 @name 어트리뷰트가 일치해야 연결됨을 알려드렸습니다. constraint 에서 포인트를 하나 더 만들고 이름을 @name=""로 줘봅시다. 위치는 적당히 옮겨보시구요. 그렇다면'
 
 
-![지오메트리의 centroid 와 constraint이 잘 붙어있음을 보여주기 위해 하나는 x-ray 처럼 보이게 하였습니다.](../assets/blog/pics/rbd_2.gif)
+![지오메트리의 centroid 와 constraint이 잘 붙어있음을 보여주기 위해 하나는 x-ray 처럼 보이게 하였습니다.](../../assets/blog/pics/rbd_2.gif)
 
 
 constraint 에 null 네임을 주는것 말고 primitive 의 속성을 건드려 다르게 적용해볼 수 있습니다. 
@@ -82,7 +82,7 @@ else @active=1;
 ```
 
 
-![지오메트리의 centroid 와 constraint이 잘 붙어있음을 보여주기 위해 하나는 x-ray 처럼 보이게 하였습니다.](../assets/blog/pics/rbd_3.gif)
+![지오메트리의 centroid 와 constraint이 잘 붙어있음을 보여주기 위해 하나는 x-ray 처럼 보이게 하였습니다.](../../assets/blog/pics/rbd_3.gif)
 
 와~ 신난다. 이제 더 많은것을 할 수 있을것 같은 느낌이 듭니다. 
 
@@ -110,7 +110,7 @@ Spring Constraint
 헷갈리겠지만 position이 constraint 되는 것이라 @constraint_type = "position" 따라서 rotation인 회전이 자유로워 지고 반대는 .. 뻔하죠? position이 자유로워 집니다.
 
 
-![아래도 분명 gif입니다](../assets/blog/pics/const_types.gif)
+![아래도 분명 gif입니다](../../assets/blog/pics/const_types.gif)
 
 ### Soft Constraint
 
@@ -132,4 +132,4 @@ Hard Constraint 의 @constraint_type을 포함하여 Stiffness, Propagation Rate
 | 대표 속성  | s@constraint_type  | s@constraint_type, @stiffness | @strength |
 
 
-![](../assets/blog/pics/const_all.gif)
+![](../../assets/blog/pics/const_all.gif)
