@@ -9,9 +9,9 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'About', link: '/about' },
-      { text: 'Blog', link: '/post/blog/'},//usd, projects
-      { text: 'Houdini', link: '/post/houdini/'},
-      { text: 'Other', link: '/post/linux/'}
+      { text: 'Blog', link: '/post/blog'},//usd, projects
+      { text: 'Houdini', link: '/post/houdini'},
+      { text: 'Other', link: '/post/linux'}
 
     ],
 
@@ -28,9 +28,9 @@ export default defineConfig({
             {
               text: 'FX',
               items: [
-                { text: 'Constraint 101', link: '/post/blog/Constraints' },
-                { text: 'Collider 101', link: '/post/blog/Collider101'},
-                { text: 'Pyro 101', link: '/post/blog/Pyro101'}
+                { text: 'Constraint 101', link: '/post/houdini/Constraints' }
+                //{ text: 'Collider 101', link: '/post/houdini/Collider101'},
+                //{ text: 'Pyro 101', link: '/post/houdini/Pyro101'}
               ]
             },
             {
@@ -56,9 +56,9 @@ export default defineConfig({
           {
             text: 'VM & CT',
             items: [
-              { text: 'Install Proxmox', link: '/post/vmct/proxmoxInstall' },
-              { text: 'Configure Proxmox', link: '/proxmox/proxmoxConfigure' },
-              { text: 'Configure Docker in Linux', link: '/proxmox/docker' }
+              { text: 'Install Proxmox', link: '/post/vmct/proxmoxInstall' }
+              //{ text: 'Configure Proxmox', link: '/proxmox/proxmoxConfigure' },
+              //{ text: 'Configure Docker in Linux', link: '/proxmox/docker' }
             ]
           },
           {

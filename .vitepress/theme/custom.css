@@ -18,3 +18,10 @@
   --vp-c-bg-soft: #0f0f0f;
 
 }
+
+
+.VPHero .text {
+  font-size: 21px !important;  /* 원하는 크기로 조정하세요 */
+  line-height: 32px !important;
+  font-weight: 500 !important;
+}

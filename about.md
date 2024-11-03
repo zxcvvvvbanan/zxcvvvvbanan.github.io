@@ -19,7 +19,7 @@ Shot dev on Feature film, game cinematic, Netflix series
 
 TD tasks such as asset creation, deployment, troubleshooting and provided solution for shot tasks.
 
-## Qualifications :thumbsup:
+## Stacks :thumbsup:
 
 - Dev tools: Git, Rez (Dependency Management)
 - DCC tools: SideFX Houdini, The Foundry Nuke
@@ -30,7 +30,8 @@ TD tasks such as asset creation, deployment, troubleshooting and provided soluti
 
 ## Education :pen:
 
+
 2012-2019
 - **Sejong University, Seoul**
 
-Bachelor's degree in Computer Science
+Bachelor's degree in **Computer Science**

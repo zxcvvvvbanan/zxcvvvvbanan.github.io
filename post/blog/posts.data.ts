@@ -5,7 +5,7 @@ export default createContentLoader('/post/blog/*.md', {
     excerpt: true,
     transform(raw) {
       // index.md 파일 제외
-      const posts = raw.filter(post => !post.url.endsWith('/post/linux/'))
+      const posts = raw.filter(post => !post.url.endsWith('/post/blog/'))
       
       // 날짜순 정렬
       return posts.sort((a, b) => {
