@@ -23,7 +23,7 @@ import formatDate from '/.vitepress/theme/utils/formatDate';
 ## Recent Posts
 
 <ul>
-  <li v-for="post of posts.slice(0,4)">
+  <li v-for="post of posts.slice(0,5)">
       <strong><a :href="post.url">{{ post.frontmatter.title }}</a></strong><br/>
       <span>{{ formatDate( post.frontmatter.date ) }}</span>
   </li>
@@ -58,5 +58,10 @@ More on [About Me](about.md)
 
 ## Colophon
 
-Built using [Vitepress](https://vitepress.dev) and [Vue.js](https://vuejs.org).
+Built using [Vue.js](https://vuejs.org) powered [Vitepress](https://vitepress.dev).
+
+Build and deployement done with [Github Pages](https://pages.github.com).
+
+Custom scripts by myself to enhance user experience. 
+
 
