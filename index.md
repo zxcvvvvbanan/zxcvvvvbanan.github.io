@@ -12,13 +12,6 @@ hero:
       text: Blog
       link: /post/blog
 
-features:
-  - title: USD friendly
-    details: understands USD concepts, basics and  troubleshooting basic problems.
-  - title: Houdini
-    details: handles the majority of FX shot context, HDA creation, as well as versioning and management.​
-  - title: Strong pipeline background
-    details: create scripts on demand, GUI tool with PyQt, package management with Rez. Fluent working in *nix, Win, Mac environment.
 ---
 
 
@@ -35,11 +28,6 @@ import formatDate from '/.vitepress/theme/utils/formatDate';
       <span>{{ formatDate( post.frontmatter.date ) }}</span>
   </li>
 </ul>
-
-## Colophon
-
-Built using [Vitepress](https://vitepress.dev) and [Vue.js](https://vuejs.org).
-
 
 ## Stacks
 
@@ -66,3 +54,9 @@ More on [About Me](about.md)
   <a href="#" style="display: block; word-break: break-word;"><img src="https://skillicons.dev/icons?i=docker&theme=dark"/></a>
   <a href="#" style="display: block; word-break: break-word;"><img src="https://skillicons.dev/icons?i=obsidian&theme=dark"/></a>
 </p>
+
+
+## Colophon
+
+Built using [Vitepress](https://vitepress.dev) and [Vue.js](https://vuejs.org).
+
