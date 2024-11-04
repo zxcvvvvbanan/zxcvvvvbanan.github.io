@@ -4,7 +4,7 @@ import { data as posts } from './posts.data'
 import formatDate from '/.vitepress/theme/utils/formatDate';
 </script>
 
-## Houdini Posts
+# Houdini Posts
 
 <ul class="recentposts">
     <li v-for="post of posts">

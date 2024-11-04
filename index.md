@@ -24,7 +24,7 @@ import formatDate from '/.vitepress/theme/utils/formatDate';
 
 <ul class="recentposts">
   <li v-for="post of posts.slice(0,5)">
-      <strong><a :href="post.url" style="text-decoration: none; color: white;">{{ post.frontmatter.title }}</a></strong><br/>
+      <strong><a :href="post.url">{{ post.frontmatter.title }}</a></strong><br/>
       <span>{{ formatDate( post.frontmatter.date ) }}</span>
   </li>
 </ul>
