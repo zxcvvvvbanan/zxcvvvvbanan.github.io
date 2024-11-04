@@ -1,6 +1,6 @@
 ---
 layout: home
-
+title: false
 hero:
   name: "Yongjun Cho"
   actions:
