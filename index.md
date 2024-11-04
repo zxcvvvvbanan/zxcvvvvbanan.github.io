@@ -3,7 +3,7 @@ layout: home
 hero:
   name: "Yongjun Cho"
   text: 'Houdini FX Artist'
-  image: /assets/images/
+  #image: /assets/images/
   actions:
     - theme: brand
       text: Houdini

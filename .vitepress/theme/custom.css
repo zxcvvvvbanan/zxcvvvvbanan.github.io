@@ -40,6 +40,7 @@ ul.recentposts {
 .recentposts a {
   text-decoration: none;
   color: white;
+  font-weight: 800 !important;
 }
 
 li {
@@ -54,7 +55,7 @@ li a {
 }
 
 li span {
-  font-family: var(--vp-font-family-mono);
+  /*font-family: var(--vp-font-family-mono);*/
   font-size: var(--vp-code-font-size);
   color: var(--vp-c-font-color);
 }
