@@ -1,8 +1,8 @@
 ---
 layout: home
-title: false
 hero:
   name: "Yongjun Cho"
+  description: 'Houdini FX Artist'
   actions:
     - theme: brand
       text: Houdini
@@ -58,10 +58,7 @@ More on [About Me](about.md)
 
 ## Colophon
 
-Built using [Vue.js](https://vuejs.org) powered [Vitepress](https://vitepress.dev).
-
+Created using [Vue.js](https://vuejs.org) powered [Vitepress](https://vitepress.dev).
 Build and deployement done with [Github Pages](https://pages.github.com).
-
-Custom scripts by myself to enhance user experience. 
-
+Custom scripts done to enhance user experience. Refer to github repository. 
 
