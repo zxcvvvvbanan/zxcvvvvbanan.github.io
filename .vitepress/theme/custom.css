@@ -19,18 +19,21 @@
 
 }
 
+.VPHero .name {
+  font-weight: 850 !important;
+}
 
 .VPHero .text {
-  font-size: 21px !important;  /* 원하는 크기로 조정하세요 */
-  line-height: 32px !important;
+  font-size: 24px !important;  /* 원하는 크기로 조정하세요 */
+  line-height: 45px !important;
   font-weight: 500 !important;
 }
 
-ul {
+ul.recentposts {
   list-style-type: none;
   padding-left: 0;
-  font-size: 1.2rem;
-  line-height: 1;
+  font-size: 1.23rem;
+  line-height: 1.5;
 }
 
 li {
@@ -41,6 +44,7 @@ li {
 li a {
   display: block;  /* 링크를 블록 레벨로 변경 */
   word-break: break-word;  /* 긴 제목이 있을 경우 줄바꿈 */
+  text-decoration: none;  /* 밑줄 제거 */
 }
 
 li span {

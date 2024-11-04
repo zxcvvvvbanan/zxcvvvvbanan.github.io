@@ -3,6 +3,7 @@ layout: home
 hero:
   name: "Yongjun Cho"
   text: 'Houdini FX Artist'
+  image: /assets/images/
   actions:
     - theme: brand
       text: Houdini
@@ -21,9 +22,9 @@ import formatDate from '/.vitepress/theme/utils/formatDate';
 
 ## Recent Posts
 
-<ul>
+<ul class="recentposts">
   <li v-for="post of posts.slice(0,5)">
-      <strong><a :href="post.url">{{ post.frontmatter.title }}</a></strong><br/>
+      <strong><a :href="post.url" style="text-decoration: none; color: white;">{{ post.frontmatter.title }}</a></strong><br/>
       <span>{{ formatDate( post.frontmatter.date ) }}</span>
   </li>
 </ul>
