@@ -2,7 +2,7 @@
 layout: home
 hero:
   name: "Yongjun Cho"
-  description: 'Houdini FX Artist'
+  text: 'Houdini FX Artist'
   actions:
     - theme: brand
       text: Houdini
@@ -13,7 +13,6 @@ hero:
       link: /post/blog
 
 ---
-
 
 <script setup>
 import { data as posts } from './posts.data'
