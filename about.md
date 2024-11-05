@@ -36,6 +36,7 @@ TD tasks such as asset creation, deployment, troubleshooting and provided soluti
 
 Bachelor's degree in **Computer Science**
 
+---
 
 # What is this and who is this for?
 
