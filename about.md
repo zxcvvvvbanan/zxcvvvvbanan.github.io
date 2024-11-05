@@ -35,3 +35,14 @@ TD tasks such as asset creation, deployment, troubleshooting and provided soluti
 - **Sejong University, Seoul**
 
 Bachelor's degree in **Computer Science**
+
+
+# Why such an effort? 
+
+I was raised and educated to take **nice** note since middle school. Archiving as well. Photos, documents, vidoes and etcetera. Wish I could show you how my NAS, Notion and Obsidian are beautifully structured. (Huge no actually)  :smile:
+I tried to take note on my paper notebook but there were limits. Search, edit are nearly impossible, they are fragile to be lost, or damaged.
+Rather than keep it in a paper notebook, I've stored it online. Thus, my posts are not official nor solid accurate. Feel free to make use of it, but do not trust my posts like 100%.
+It took a while learning all this but happy to be able to share with you all.
+Hope you find my site useful. 
+
+-Jim
