@@ -40,7 +40,7 @@ Bachelor's degree in **Computer Science**
 
 # What is this and who is this for?
 
-I enjoyed taking notes and archiving stuff since middle school including photos, documents, vidoes and etcetera. I wish I could show you how meticulously organized my NAS, Notion and Obsidian (though that's not going to happen)  :smile:
+I enjoyed taking notes and archiving stuff since middle school including photos, documents, vidoes and etcetera. I wish I could show you how meticulously organized my NAS, Notion and Obsidian are (though that's not going to happen).  :smile:
 
 I tried maintaining a paper notebook but found its limitations to be significant. Searching and editing were nearly impossible, and the risk of loss or damage was always present. Instead, I took my notes online. Not only digitalized but stylized, portable, reachable and secure.
 
