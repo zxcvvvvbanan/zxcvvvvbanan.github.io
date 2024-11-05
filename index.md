@@ -58,7 +58,6 @@ More on [About Me](about.md)
 
 ## Colophon
 
-Created using [Vue.js](https://vuejs.org) powered [Vitepress](https://vitepress.dev).
+This is a static site created using [Vue.js](https://vuejs.org) powered [Vitepress](https://vitepress.dev).
 Build and deployement done with [Github Pages](https://pages.github.com).
-Custom scripts done to enhance user experience. Refer to github repository. 
-
+Custom scripts and CSS styling done to enhance your (or my) web experience. Refer to github repository! Wide open to everybody. 
