@@ -37,12 +37,15 @@ TD tasks such as asset creation, deployment, troubleshooting and provided soluti
 Bachelor's degree in **Computer Science**
 
 
-# Why such an effort? 
+# What is this and who is this for?
 
-I was raised and educated to take **nice** note since middle school. Archiving as well. Photos, documents, vidoes and etcetera. Wish I could show you how my NAS, Notion and Obsidian are beautifully structured. (Huge no actually)  :smile:
-I tried to take note on my paper notebook but there were limits. Search, edit are nearly impossible, they are fragile to be lost, or damaged.
-Rather than keep it in a paper notebook, I've stored it online. Thus, my posts are not official nor solid accurate. Feel free to make use of it, but do not trust my posts like 100%.
-It took a while learning all this but happy to be able to share with you all.
-Hope you find my site useful. 
+I enjoyed taking notes and archiving stuff since middle school including photos, documents, vidoes and etcetera. I wish I could show you how meticulously organized my NAS, Notion and Obsidian (though that's not going to happen)  :smile:
+
+I tried maintaining a paper notebook but found its limitations to be significant. Searching and editing were nearly impossible, and the risk of loss or damage was always present. Instead, I took my notes online. Not only digitalized but stylized, portable, reachable and secure.
+
+My posts are not official or entirely precise. Feel free to use them, but keep in mind they should not be treated as completely reliable! These are notes in my own words, sometimes broken, messy and mixed-up.
+
+I hope you find my site helpful.
+
 
 -Jim
