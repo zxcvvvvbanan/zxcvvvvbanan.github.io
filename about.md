@@ -12,7 +12,7 @@ Specialized, enthusiastic VFX artist experienced in both FX and pipeline develop
 
 ## Work Experience :health_worker:
 
-Jan 2022 - Jan 2025
+Jan 2022 - Present
 - **Dexter Studios, Seoul**
 
 Shot dev on Feature film, game cinematic, Netflix series
@@ -42,7 +42,7 @@ Bachelor's degree in **Computer Science**
 
 I enjoyed taking notes and archiving stuff since middle school including photos, documents, vidoes and etcetera. I wish I could show you how meticulously organized my NAS, Notion and Obsidian are (though that's not going to happen).  :smile:
 
-I tried maintaining a paper notebook but found its limitations to be significant. Searching and editing were nearly impossible, and the risk of loss or damage was always present. Instead, I took my notes online. Not only digitalized but stylized, portable, reachable and secure.
+I tried maintaining a paper notebook but found its limitations to be significant. Searching and editing were nearly impossible, and the risk of loss or damage was always present. Instead, I took my notes online. Not only digitalized but stylized, portable, accessible and secure.
 
 My posts are not official or entirely precise. Feel free to use them, but keep in mind they should not be treated as completely reliable! These are notes in my own words, sometimes broken, messy and mixed-up.
 
