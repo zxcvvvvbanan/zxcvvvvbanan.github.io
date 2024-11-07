@@ -6,6 +6,9 @@ portfolio: true
 sidebar: false
 ---
 
+
+
+
 # About Me
 
 Specialized, enthusiastic VFX artist experienced in both FX and pipeline development. Strong background in computer programming and Houdini FX.
