@@ -16,6 +16,8 @@ hero:
       text: Blog
       link: /post/blog
 
+  image:
+    src: ./assets/images/logo.png
 ---
 
 <script setup>
