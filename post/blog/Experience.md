@@ -24,7 +24,7 @@ This post details my professional experience and technical achievements, focusin
 
 #### File I/O 
 
-![An image](../../assets/images/FileIO.png)
+![An image](/assets/images/FileIO.png)
 
 주요내용
 - 내부 툴에 대한 기능 추가 (이미지의 Renderfarm, Tweak 영역 모두, Cache path 란의 Author)
@@ -37,7 +37,7 @@ This post details my professional experience and technical achievements, focusin
 
 #### 샷 Automation 툴
 
-![An image](../../assets/images/Butler.png)
+![An image](/assets/images/Butler.png)
 
 주요내용 
 - 프로그램 기획 및 개발
