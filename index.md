@@ -4,7 +4,7 @@ heroFullScreen: true
 hero:
   name: "Yongjun Cho"
   text: 'Houdini FX Artist'
-  image: /logo.png
+  image: ./logo.png
   actions:
     - theme: brand
       text: About Me
