@@ -1,13 +1,14 @@
 ---
 layout: home
+title: Yongjun Cho
 
 hero:
-  name: "Yongjun Cho"
-  text: 'Houdini FX Artist'
+  name: Yongjun Cho
+  text: Houdini FX Artist
   actions:
     - theme: brand
       text: About Me
-      link: ../about
+      link: /about
     - theme: alt
       text: Houdini
       link: /post/houdini
