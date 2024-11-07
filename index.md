@@ -1,14 +1,17 @@
 ---
 layout: home
+heroFullScreen: true
 hero:
   name: "Yongjun Cho"
   text: 'Houdini FX Artist'
-  #image: /assets/images/
+  image: /assets/images/logo.png
   actions:
+    - theme: brand
+      text: About Me
+      link: ../about
     - theme: brand
       text: Houdini
       link: /post/houdini
-      
     - theme: alt
       text: Blog
       link: /post/blog
@@ -16,18 +19,20 @@ hero:
 ---
 
 <script setup>
-import { data as posts } from './posts.data'
+import { data as posts } from '.vitepress/posts.data'
 import formatDate from '/.vitepress/theme/utils/formatDate';
 </script>
 
 ## Recent Posts
 
-<ul class="recentposts">
-  <li v-for="post of posts.slice(0,5)">
-      <strong><a :href="post.url">{{ post.frontmatter.title }}</a></strong><br/>
-      <span>{{ formatDate( post.frontmatter.date ) }}</span>
+<template v-for="post in posts.slice(0,5)" class="tmp">
+  <li>
+    <a :href="post.url" class="recent-posts">{{ post.frontmatter.title }}</a>
+    <span>{{ formatDate( post.frontmatter.date ) }}</span>
   </li>
-</ul>
+  <div v-if="post.excerpt" v-html="post.excerpt.slice(0, 200) + '...'" ></div>
+  <br/>
+</template>
 
 ## Stacks
 

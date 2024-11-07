@@ -2,7 +2,13 @@
 title: Install Nvidia driver
 date: 2024-5-02T19:41:00Z
 ---
+::: details Summary (AI Generation)
+<!-- DESC SEP -->
+Installing NVIDIA drivers on Rocky Linux 9.4 can be done efficiently through package repositories rather than using the .run installer file. The process involves enabling EPEL repository, adding the official NVIDIA repo, installing required kernel packages, and installing the NVIDIA driver packages through DNF. This method avoids manual steps like blocking nouveau and rebuilding initramfs, making it a simpler and more maintainable approach for most users.
+<!-- AI Summerized -->
 
+<!-- DESC SEP -->
+:::
 
 #### Intro
 

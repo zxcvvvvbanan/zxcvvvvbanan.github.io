@@ -2,10 +2,10 @@
 import { createContentLoader } from 'vitepress'
 
 export default createContentLoader('/post/linux/*.md', {
-    excerpt: true,
+    excerpt: excerptFn,
     transform(raw) {
       // index.md 파일 제외
-      const posts = raw.filter(post => !post.url.endsWith('/post/linux/'))
+      const posts = raw.filter(post => !post.url.endsWith('/'))
       
       // 날짜순 정렬
       return posts.sort((a, b) => {
@@ -14,4 +14,6 @@ export default createContentLoader('/post/linux/*.md', {
     }
 })
 
-      
+function excerptFn(file: { data: { [key: string]: any }; content: string; excerpt?: string }, options?: any) {
+  file.excerpt = file.content.split('<!-- DESC SEP -->')[1];
+}

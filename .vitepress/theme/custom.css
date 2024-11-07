@@ -29,18 +29,18 @@
   font-weight: 500 !important;
 }
 
-ul.recentposts {
-  list-style-type: none;
-  padding-left: 0;
-  font-size: 1.23rem;
-  line-height: 1.5;
-  color: white;
+a.recent-posts {
+  text-decoration: none;
+  color: rgb(171, 171, 171);
+  font-weight: 650 !important;
+  font-size: 1.3rem; 
 }
 
-.recentposts a {
+
+span.recent-posts {
   text-decoration: none;
-  color: white;
-  font-weight: 800 !important;
+  color: rgb(151, 151, 151);
+  font-weight: 450 !important;
 }
 
 li {

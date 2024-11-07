@@ -3,6 +3,14 @@ title: Mount Network Drive through samba
 date: 2024-01-02T19:41:00Z
 ---
 
+::: details Summary (AI Generation)
+<!-- DESC SEP -->
+
+<!-- AI Summerized -->
+
+<!-- DESC SEP -->
+:::
+
 # Mount Network Drive through samba
 
 ::: warning

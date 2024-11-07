@@ -2,7 +2,13 @@
 title: Constaints and RBD 101
 date: 2024-01-02T19:41:00Z
 ---
+::: details Summary (AI Generation)
+<!-- DESC SEP -->
+후디니의 RBD 시뮬레이션에서 컨스트레인트는 두 물체를 연결하는 중요한 요소입니다. 이 문서에서는 두 상자를 연결하는 컨스트레인트의 기본 개념과 설정 방법을 다룹니다. 특히 폴리라인을 통한 컨스트레인트 구성, 포인트 레벨의 속성 설정, 그리고 Hard Constraint의 @restlength 설정과 같은 핵심 내용을 설명합니다.
+<!-- AI Summerized -->
 
+<!-- DESC SEP -->
+:::
 
 # Constaints and RBD 101
 

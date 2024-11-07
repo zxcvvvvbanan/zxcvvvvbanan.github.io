@@ -6,9 +6,13 @@ import formatDate from '/.vitepress/theme/utils/formatDate';
 
 # Houdini Posts
 
-<ul class="recentposts">
-    <li v-for="post of posts">
-        <strong><a :href="post.url">{{ post.frontmatter.title }}</a></strong><br/>
-        <span>{{ formatDate( post.frontmatter.date ) }}</span>
-    </li>
-</ul>
+## Recent Posts
+
+<template v-for="post in posts.slice(0,5)" class="tmp">
+  <li>
+    <a :href="post.url" class="recent-posts">{{ post.frontmatter.title }}</a>
+    <span>{{ formatDate( post.frontmatter.date ) }}</span>
+  </li>
+  <div v-if="post.excerpt" v-html="post.excerpt.slice(0, 200) + '...'" ></div>
+  <br/>
+</template>

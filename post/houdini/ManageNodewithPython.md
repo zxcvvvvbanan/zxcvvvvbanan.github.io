@@ -3,6 +3,15 @@ title: Manage Node with Python
 date: 2024-01-02T19:41:00Z
 ---
 
+::: details Summary (AI Generation)
+<!-- DESC SEP --> 
+Demonstrates how to programmatically manage Houdini nodes using Python, covering basic operations like creating nodes, changing node names, modifying colors, and working with comments. The examples show how to interact with Houdini's Python API to manipulate nodes and their properties within the scene hierarchy.
+
+<!-- AI Summerized -->
+
+<!-- DESC SEP -->
+:::
+
 # Manage Node with Python
 
 ::: tip

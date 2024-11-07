@@ -2,7 +2,13 @@
 title: Install SideFX Houdini
 date: 2024-07-12T19:41:00Z
 ---
+::: details Summary (AI Generation)
+<!-- DESC SEP -->
+Installing SideFX Houdini on Linux systems like Rocky Linux 9.4 involves a few more steps compared to other platforms. The process includes downloading the installer package, extracting the contents from a tar.gz file, executing the installation script, and completing setup with administrator privileges. Though it requires additional effort, working with Linux installations helps build valuable system knowledge and troubleshooting capabilities.
+<!-- AI Summerized -->
 
+<!-- DESC SEP -->
+:::
 
 ::: warning
 Tested on Rocky, Fedora Linux

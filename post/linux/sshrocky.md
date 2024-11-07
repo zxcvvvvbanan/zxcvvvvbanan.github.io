@@ -3,6 +3,13 @@ title: Setting SSH on Fedora
 date: 2024-01-03T19:41:00Z
 ---
 
+::: details Summary (AI Generation)
+<!-- DESC SEP -->
+Setting up SSH on Fedora Linux involves checking and starting the SSH daemon service, modifying the default port for enhanced security, and properly configuring the SSH settings through the sshd_config file. The process requires administrative privileges and includes verifying the service status, editing configuration files, and restarting the service to apply changes. While straightforward, proper SSH configuration is crucial for secure remote system access and management.
+<!-- AI Summerized -->
+
+<!-- DESC SEP -->
+:::
 
 # Setting SSH on Fedora
 

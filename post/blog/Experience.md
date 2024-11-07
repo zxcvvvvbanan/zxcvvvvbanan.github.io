@@ -2,6 +2,14 @@
 title: Experience
 date: 2024-10-02T19:41:00Z
 ---
+::: details Summary (AI Generation)
+<!-- DESC SEP --> 
+This post details my professional experience and technical achievements, focusing on pipeline improvements in Houdini and automation tools development. It highlights key accomplishments in developing scripts and tools that improved workflow efficiency by 80% and reduced human error. The post includes specific examples like File I/O automation for render farm submissions and Shot Automation tools, along with technical expertise in Python, Houdini, Pixar Tractor, and other industry-standard tools.
+<!-- AI Summerized -->
+
+<!-- DESC SEP -->
+:::
+
 
 # 경력기술
 
