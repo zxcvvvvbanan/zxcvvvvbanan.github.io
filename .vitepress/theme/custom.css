@@ -19,7 +19,25 @@
 
 }
 
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(-80deg, #ffffff 44%, #3f9c2c);
 
+  --vp-home-hero-image-background-image: linear-gradient(-45deg, #6e6e6e 70%, #3f9c2c 20%);
+  --vp-home-hero-image-filter: blur(44px);
+}
+
+@media (min-width: 640px) {
+  :root {
+    --vp-home-hero-image-filter: blur(56px);
+  }
+}
+
+@media (min-width: 960px) {
+  :root {
+    --vp-home-hero-image-filter: blur(68px);
+  }
+}
 
 a.recent-posts {
   text-decoration: none;
