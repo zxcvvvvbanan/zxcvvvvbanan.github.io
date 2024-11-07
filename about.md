@@ -11,7 +11,16 @@ sidebar: false
 
 # About Me
 
-Specialized, enthusiastic VFX artist experienced in both FX and pipeline development. Strong background in computer programming and Houdini FX.
+![Profile photo](/assets/images/logo.png){width=55% style="border-radius: 8px; display: block; margin: 0 auto;"}
+
+
+Specialized, enthusiastic VFX artist whom fell in love with both FX and pipeline development. Strong background in computer programming and Houdini FX.
+
+Not limited to VFX, I do enjoy trying out new things wether it be software, music, film, gadgets or meeting new people. 
+
+If you are a student or junior (btw, I am junior too) artist passing by, please feel free to contact me. I'd love to share my experience and network with you.  
+
+
 
 ### Work Experience :health_worker:
 
@@ -38,6 +47,8 @@ TD tasks such as asset creation, deployment, troubleshooting and provided soluti
 - **Sejong University, Seoul**
 
 Bachelor's degree in **Computer Science**
+
+
 
 ---
 
