@@ -48,6 +48,11 @@ TD tasks such as asset creation, deployment, troubleshooting and provided soluti
 
 Bachelor's degree in **Computer Science**
 
+## Colophon
+
+This is a static site created using [Vue.js](https://vuejs.org) powered [Vitepress](https://vitepress.dev).
+Build and deployement done with [Github Pages](https://pages.github.com).
+Custom scripts and CSS styling done to enhance your (or my) web experience. Refer to github repository! Wide open to everybody. 
 
 
 ---

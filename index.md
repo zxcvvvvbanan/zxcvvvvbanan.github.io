@@ -10,8 +10,7 @@ hero:
     - theme: alt
       text: Blog
       link: /post/blog
-  image:
-    src: /assets/images/logo.png
+
 ---
 
 <script setup>
@@ -55,10 +54,3 @@ More on [About Me](about.md)
   <a href="#" style="display: block; word-break: break-word;"><img src="https://skillicons.dev/icons?i=docker&theme=dark"/></a>
   <a href="#" style="display: block; word-break: break-word;"><img src="https://skillicons.dev/icons?i=obsidian&theme=dark"/></a>
 </p>
-
-
-## Colophon
-
-This is a static site created using [Vue.js](https://vuejs.org) powered [Vitepress](https://vitepress.dev).
-Build and deployement done with [Github Pages](https://pages.github.com).
-Custom scripts and CSS styling done to enhance your (or my) web experience. Refer to github repository! Wide open to everybody. 
