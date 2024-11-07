@@ -1,0 +1,68 @@
+/* .vitepress/theme/custom.css */
+
+
+:root {
+  --vp-c-bg: #bebebe;
+  --vp-c-bg-alt: #ececec;
+  --vp-c-bg-elv: #f0f0f0;
+  --vp-c-bg-soft: #e0e0e0;
+  --vp-c-brand-1: #3f9c2c;
+  --vp-c-brand-3: #3f9c2c;
+  --vp-c-brand-2: #28691b;
+}
+
+.dark {
+  --vp-c-bg: #181818;
+  --vp-c-bg-alt: #242424;
+  --vp-c-bg-elv: #3d3d3d;
+  --vp-c-bg-soft: #0f0f0f;
+
+}
+
+
+
+a.recent-posts {
+  text-decoration: none;
+  color: rgb(171, 171, 171);
+  font-weight: 650 !important;
+  font-size: 1.3rem; 
+}
+
+
+span.recent-posts {
+  text-decoration: none;
+  color: rgb(151, 151, 151);
+  font-weight: 450 !important;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+}
+
+li a {
+  display: block;  /* 링크를 블록 레벨로 변경 */
+  word-break: break-word;  /* 긴 제목이 있을 경우 줄바꿈 */
+  text-decoration: none;  /* 밑줄 제거 */
+}
+
+li span {
+  /*font-family: var(--vp-font-family-mono);*/
+  font-size: var(--vp-code-font-size);
+  color: var(--vp-c-font-color);
+}
+
+@media (max-width: 768px) {
+  ul {
+      font-size: 1rem;  /* 모바일에서 더 작은 폰트 크기 */
+  }
+
+  li {
+      flex-direction: column;  /* 모바일에서는 세로로 정렬 */
+      margin-bottom: 1.2rem;
+  }
+
+  li span {
+      font-size: 0.9rem;  /* 날짜 텍스트 크기 조정 */
+  }
+}
