@@ -1,11 +1,9 @@
 ---
 layout: home
-heroFullScreen: true
+
 hero:
   name: "Yongjun Cho"
   text: 'Houdini FX Artist'
-  image: 
-    src: ./vitepress-logo-large.webp
   actions:
     - theme: brand
       text: About Me
@@ -16,7 +14,8 @@ hero:
     - theme: alt
       text: Blog
       link: /post/blog
-
+  image: 
+    src: /vitepress-logo-large.webp
 ---
 
 <script setup>
