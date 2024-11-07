@@ -18,8 +18,6 @@ hero:
 
 ---
 
-![An image](../../assets/images/logo.png)
-
 <script setup>
 import { data as posts } from '.vitepress/posts.data'
 import formatDate from '/.vitepress/theme/utils/formatDate';
