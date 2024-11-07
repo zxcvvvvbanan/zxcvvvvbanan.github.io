@@ -17,7 +17,7 @@ If you are a student or junior (btw, I am junior too) artist passing by, please 
 
 
 
-### Work Experience :health_worker:
+### Work Experience:
 
 Jan 2022 - Present
 - **Dexter Studios, Seoul**
@@ -33,14 +33,16 @@ TD tasks such as asset creation, deployment, troubleshooting and provided soluti
   <a href="#" style="display: block; word-break: break-word;"><img src="/assets/icon/usd.svg" width="48" height="48"/></a>
   <a href="#" style="display: block; word-break: break-word;"><img src="/assets/icon/nuke.svg" width="48" height="48"/></a>
   <a href="#" style="display: block; word-break: break-word;"><img src="https://skillicons.dev/icons?i=py&theme=dark" /></a>
-  <a href="#" style="display: block; word-break: break-word;"><img src="https://skillicons.dev/icons?i=qt&theme=dark" /></a>
   <a href="#" style="display: block; word-break: break-word;"><img src="https://skillicons.dev/icons?i=linux&theme=dark"/></a>
   <a href="#" style="display: block; word-break: break-word;"><img src="https://skillicons.dev/icons?i=git&theme=dark"/></a>
 </p>
 
+SideFX Houdini / Pixar USD / The Foundry Nuke  / Python / Linux / Git
+
 ### Fun Stacks:
 
 <p align="left" style="display: flex; gap: 4px; flex-wrap: wrap;">
+  <a href="#" style="display: block; word-break: break-word;"><img src="https://skillicons.dev/icons?i=qt&theme=dark" /></a>
   <a href="#" style="display: block; word-break: break-word;"><img src="https://skillicons.dev/icons?i=vite&theme=dark"/></a>
   <a href="#" style="display: block; word-break: break-word;"><img src="/assets/icon/proxmox.svg" width="48" height="48"/></a>
   <a href="#" style="display: block; word-break: break-word;"><img src="https://skillicons.dev/icons?i=vscode&theme=dark"/></a>
@@ -49,15 +51,16 @@ TD tasks such as asset creation, deployment, troubleshooting and provided soluti
   <a href="#" style="display: block; word-break: break-word;"><img src="https://skillicons.dev/icons?i=obsidian&theme=dark"/></a>
 </p>
 
+Qt / Vite / Proxmox / VS Code / Vim / Dokcer / Obsidian
 
+### Education:
 
-### Education :pen:
-
-
-2012-2019
 - **Sejong University, Seoul**
+2012-2019
 
 Bachelor's degree in **Computer Science**
+
+*two years of military service in the midst
 
 ## Colophon
 

@@ -69,18 +69,3 @@ li span {
   font-size: var(--vp-code-font-size);
   color: var(--vp-c-font-color);
 }
-
-@media (max-width: 768px) {
-  ul {
-      font-size: 1rem;  /* 모바일에서 더 작은 폰트 크기 */
-  }
-
-  li {
-      flex-direction: column;  /* 모바일에서는 세로로 정렬 */
-      margin-bottom: 1.2rem;
-  }
-
-  li span {
-      font-size: 0.9rem;  /* 날짜 텍스트 크기 조정 */
-  }
-}
