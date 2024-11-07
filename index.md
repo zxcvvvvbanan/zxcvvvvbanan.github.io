@@ -5,7 +5,7 @@ hero:
   name: "Yongjun Cho"
   text: 'Houdini FX Artist'
   image: 
-    src: ./logo.png
+    src: ./vitepress-logo-large.webp
   actions:
     - theme: brand
       text: About Me
