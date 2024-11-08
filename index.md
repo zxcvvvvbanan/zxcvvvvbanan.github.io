@@ -16,7 +16,7 @@ hero:
       link: /post/blog
 
   image:
-    src: /assets/img/logo2.png
+    src: /assets/images/logo2.png
     alt: YJ
 
 ---
