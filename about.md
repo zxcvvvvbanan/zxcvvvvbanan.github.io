@@ -11,7 +11,7 @@ sidebar: false
 
 Specialized, enthusiastic VFX artist whom fell in love with both FX and pipeline development. Strong background in computer programming and Houdini FX.
 
-Not limited to VFX, I do enjoy trying out new things wether it be software, music, film, gadgets or meeting new people. 
+Not limited to VFX, I do enjoy trying out new things wether it be software, music, film, gadgets and etc.
 
 If you are a student or junior (btw, I am junior too) artist passing by, please feel free to contact me. I'd love to share my experience and network with you.  
 
@@ -19,8 +19,8 @@ If you are a student or junior (btw, I am junior too) artist passing by, please 
 
 ### Work Experience:
 
-Jan 2022 - Present
 - **Dexter Studios, Seoul**
+Jan, 2022 - Present
 
 Shot dev on Feature film, game cinematic, Netflix series
 
