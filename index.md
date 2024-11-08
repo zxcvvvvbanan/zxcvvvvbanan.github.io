@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: Yongjun Cho
-  text: Houdini FX Artist
+  text: Visual Effects Artist
   actions:
     - theme: alt
       text: About Me
@@ -14,10 +14,9 @@ hero:
     - theme: alt
       text: Blog
       link: /post/blog
-
   image:
-    src: /assets/images/logo2.png
-    alt: YJ
+    light: /assets/images/logo.png
+    dark: /assets/images/logo2.png
 
 ---
 

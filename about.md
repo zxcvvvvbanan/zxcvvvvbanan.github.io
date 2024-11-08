@@ -9,23 +9,28 @@ sidebar: false
 # About Me
 
 
-Specialized, enthusiastic VFX artist whom fell in love with both FX and pipeline development. Strong background in computer programming and Houdini FX.
+Specialized VFX artist with a passion for FX and pipeline development. Combining strong backgrounds in computer programming and Houdini to create efficient workflows and compelling visual effects.
 
-Not limited to VFX, I do enjoy trying out new things wether it be software, music, film, gadgets and etc.
+Not limited to VFX, I devour new things whether it be software, music, film, gadgets and more.
 
-If you are a student or junior (btw, I am junior too) artist passing by, please feel free to contact me. I'd love to share my experience and network with you.  
-
-
+---
 
 ### Work Experience:
 
 - **Dexter Studios, Seoul**
 Jan, 2022 - Present
 
-Shot dev on Feature film, game cinematic, Netflix series
+• Shot work for feature film, game cinematic, Netflix series
 
-TD tasks such as asset creation, deployment, troubleshooting and provided solution for shot tasks.
+- Hellbound: Season 2 (Netflix), Gyeongseong Creature (Netflix), Yuyu Hakusho (Netflix), Alienoid
 
+• TD tasks
+
+- created and managed several HDAs for artists.
+- communicated with pipeline TDs for cache management, modify asset on demand.
+
+---
+ 
 ### Main Stacks:
 
 <p align="left" style="display: flex; gap: 4px; flex-wrap: wrap;">
@@ -53,6 +58,8 @@ SideFX Houdini / Pixar USD / The Foundry Nuke  / Python / Linux / Git
 
 Qt / Vite / Proxmox / VS Code / Vim / Dokcer / Obsidian
 
+---
+
 ### Education:
 
 - **Sejong University, Seoul**
@@ -68,10 +75,7 @@ This is a static site created using [Vue.js](https://vuejs.org) powered [Vitepre
 Build and deployement done with [Github Pages](https://pages.github.com).
 Custom scripts and CSS styling done to enhance your (or my) web experience. Refer to github repository! Wide open to everybody. 
 
-
----
-
-# What is this and who is this for?
+## What is this and who is this for?
 
 I enjoyed taking notes and archiving stuff since middle school including photos, documents, videos and etcetera. I wish I could show you how meticulously organized my NAS, Notion and Obsidian are (though that's not going to happen).  :smile:
 

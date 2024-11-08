@@ -16,11 +16,8 @@
   --vp-c-bg-alt: #242424;
   --vp-c-bg-elv: #363636;
   --vp-c-bg-soft: #0f0f0f;
-
 }
 
-:root {
-}
 
 @media (min-width: 640px) {
   :root {
@@ -34,11 +31,22 @@
   }
 }
 
-a.recent-posts {
-  text-decoration: none;
-  color: rgb(171, 171, 171);
-  font-weight: 650 !important;
-  font-size: 1.3rem; 
+:root {
+  a.recent-posts {
+    text-decoration: underline;
+    color: rgb(71, 71, 71);
+    font-weight: 650 !important;
+    font-size: 1.3rem; 
+  }
+}
+
+.dark {
+  a.recent-posts {
+    text-decoration: underline;
+    color: rgb(171, 171, 171);
+    font-weight: 650 !important;
+    font-size: 1.3rem; 
+  }
 }
 
 
@@ -63,4 +71,15 @@ li span {
   /*font-family: var(--vp-font-family-mono);*/
   font-size: var(--vp-code-font-size);
   color: var(--vp-c-font-color);
+}
+
+.VPHero .name {
+  font-weight: 700;
+
+}
+
+.VPHero .text {
+  font-weight: 600;
+  font-size: 1.8rem !important;
+  line-height: 1.4;
 }
