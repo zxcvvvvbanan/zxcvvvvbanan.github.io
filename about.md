@@ -17,17 +17,20 @@ Not limited to VFX, I devour new things whether it be software, music, film, gad
 
 ### Work Experience:
 
-- **Dexter Studios, Seoul**
-Jan, 2022 - Present
+- **Dexter Studios**
+Jan, 22 - Present
+
+Seoul, On-site
 
 • Shot work for feature film, game cinematic, Netflix series
 
-- Hellbound: Season 2 (Netflix), Gyeongseong Creature (Netflix), Yuyu Hakusho (Netflix), Alienoid
+- Hellbound: Season 2 (Netflix), Gyeongseong Creature (Netflix), Yuyu Hakusho (Netflix), Alienoid, The Moon
 
 • TD tasks
 
-- created and managed several HDAs for artists.
-- communicated with pipeline TDs for cache management, modify asset on demand.
+- Created and managed several HDAs for artists.
+- Managed cache workflows and created, managed assets as needed. 
+- Created automation tool when an artist opens assigned shot in Houdini for the first time.
 
 ---
  
