@@ -5,11 +5,11 @@ outline: deep
 
 <script setup>
     
-import { data as posts } from './posts.data'
+import { data as posts } from '../posts.data'
 import formatDate from '/.vitepress/theme/utils/formatDate';
 </script>
 
-# Linux Posts
+# Other Posts
 
 ## Recent Posts
 

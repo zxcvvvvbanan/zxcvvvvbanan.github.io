@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { generateSidebar } from 'vitepress-sidebar';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -16,71 +17,78 @@ export default defineConfig({
       { text: 'About', link: '/about' },
       { text: 'Blog', link: '/post/blog/'},
       { text: 'Houdini', link: '/post/houdini/'},
-      { text: 'Other', link: '/post/linux/'}
-
+      { text: 'Other', link: '/post/other/linux/'}
     ],
-
-    sidebar: [
-      {
-        text: 'Blog',
-        items: [
-          { text: '경력기술서', link: '/post/blog/Experience' }
-        ]
-      },
-      {
-        text: 'Houdini', // Nesting the following categories under 'Other'
-        items: [
-            {
-              text: 'FX',
-              items: [
-                { text: 'Constraint 101', link: '/post/houdini/Constraints' }
-                //{ text: 'Collider 101', link: '/post/houdini/Collider101'},
-                //{ text: 'Pyro 101', link: '/post/houdini/Pyro101'}
-              ]
-            },
-            {
-              text: 'Python',
-              items: [
-                { text: 'Manage Houdini with Python', link: '/post/houdini/ManageNodewithPython' }
-              ]
-            }
-          ]
-      },
-      {
-        text: 'Other', // Nesting the following categories under 'Other'
-        items: [
-          {
-            text: 'Linux',
-            items: [
-              { text: 'Install Nvidia Driver (Rocky)', link: '/post/linux/rockygpudriver' },
-              { text: 'Install Houdini', link: '/post/linux/installHoudini' },
-              { text: 'Configure Samba (Fedora)', link: '/post/linux/samba_by_CLI' },
-              { text: 'Configure SSH (Fedora)', link: '/post/linux/sshrocky' }
-            ]
-          },
-          {
-            text: 'VM & CT',
-            items: [
-              { text: 'Install Proxmox', link: '/post/vmct/proxmoxInstall' }
-              //{ text: 'Configure Proxmox', link: '/proxmox/proxmoxConfigure' },
-              //{ text: 'Configure Docker in Linux', link: '/proxmox/docker' }
-            ]
-          },
-          {
-            text: 'Personal',
-            items: [
-              { text: 'PARA', link: '/post/personal/para' }
-            ]
-          }
-        ]
-      }
-    ],
-
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/zxcvvvvbanan' },
       { icon: 'linkedin', link: 'https://www.linkedin.com/in/yongjuncho94'}
-    ]
+    ],
+
+    sidebar: generateSidebar({
+    /*
+     * For detailed instructions, see the links below:
+     * https://vitepress-sidebar.cdget.com/guide/options
+     */
+    //
+    // ============ [ RESOLVING PATHS ] ============
+    // documentRootPath: '/post',
+    scanStartPath: '/post',
+    // resolvePath: null,
+    // basePath: '/post/',
+    //
+    // ============ [ GROUPING ] ============
+    // collapsed: true,
+    // collapseDepth: 2,
+    // rootGroupText: 'Contents',
+    // rootGroupLink: 'https://github.com/jooy2',
+    // rootGroupCollapsed: false,
+    //
+    // ============ [ GETTING MENU TITLE ] ============
+    // useTitleFromFileHeading: true,
+    useTitleFromFrontmatter: true,
+    // useFolderLinkFromIndexFile: false,
+    // useFolderTitleFromIndexFile: false,
+    // frontmatterTitleFieldName: 'title',
+    //
+    // ============ [ GETTING MENU LINK ] ============
+    // useFolderLinkFromSameNameSubFile: false,
+    // useFolderLinkFromIndexFile: false,
+    // folderLinkNotIncludesFileName: false,
+    //
+    // ============ [ INCLUDE / EXCLUDE ] ============
+    excludePattern: ['about.md','README.md', 'folder/', '*examples.md'],
+    // excludeFilesByFrontmatterFieldName: 'exclude',
+    // includeDotFiles: false,
+    // includeEmptyFolder: false,
+    // includeRootIndexFile: false,
+    // includeFolderIndexFile: false,
+    //
+    // ============ [ STYLING MENU TITLE ] ============
+    // hyphenToSpace: true,
+    // underscoreToSpace: true,
+    capitalizeFirst: true,
+    // capitalizeEachWords: false,
+    // keepMarkdownSyntaxFromTitle: false,
+    // removePrefixAfterOrdering: false,
+    // prefixSeparator: '.',
+    //
+    // ============ [ SORTING ] ============
+    manualSortFileNameByPriority: ['blog', 'houdini', 'USD'],
+    // sortFolderTo: null,
+    sortMenusByName: false,
+    // sortMenusByFileDatePrefix: false,
+    // sortMenusByFrontmatterOrder: true,
+    // frontmatterOrderDefaultValue: 0,
+    // sortMenusByFrontmatterDate: false,
+    // sortMenusOrderByDescending: false,
+    // sortMenusOrderNumericallyFromTitle: false,
+    // sortMenusOrderNumericallyFromLink: false,
+    //
+    // ============ [ MISC ] ============
+    // debugPrint: false,
+    })
   }
+
 
 })
