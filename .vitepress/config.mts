@@ -11,6 +11,9 @@ export default defineConfig({
   title: "Yongjun Cho",
   description: "",
   themeConfig: {
+    search: {
+      provider: 'local'
+    },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
