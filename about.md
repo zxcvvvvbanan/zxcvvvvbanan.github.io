@@ -70,21 +70,18 @@ Bachelor's degree in **Computer Science**
 
 *two years of military service in the midst
 
+## What is this and who is this for?
+
+I've enjoyed taking notes and archiving stuff since middle school including photos, documents, videos and etcetera. I tried maintaining a paper notebook for a long time but found its inevitable limitations. Searching and editing were nearly impossible, and the risk of loss or damage was always present. Instead, I am taking my notes online. Not only digitalized but stylized, mobile, accessible and secure.
+
+Feel free to make use of them, but keep in mind they should not be treated as completely reliable. Do extra search of your own! These are notes in my own words, sometimes broken, messy and mixed-up.
+
+I hope you find my site helpful, whatever you are here for.
+
+-Jim
+
 ## Colophon
 
 This is a static site created using [Vue.js](https://vuejs.org) powered [Vitepress](https://vitepress.dev).
 Build and deployement done with [Github Pages](https://pages.github.com).
 Custom scripts and CSS styling done to enhance your (or my) web experience. Refer to github repository! Wide open to everybody. 
-
-## What is this and who is this for?
-
-I enjoyed taking notes and archiving stuff since middle school including photos, documents, videos and etcetera. I wish I could show you how organized my NAS and Obsidian are (though that's not going to happen).  :smile:
-
-I tried maintaining a paper notebook but found its inevitable limitations. Searching and editing were nearly impossible, and the risk of loss or damage was always present. Instead, I am taking my notes online. Not only digitalized but stylized, portable, accessible and secure.
-
-Feel free to make use of them, but keep in mind they should not be treated as completely reliable. These are notes in my own words, sometimes broken, messy and mixed-up.
-
-I hope you find my site helpful.
-
-
--Jim
