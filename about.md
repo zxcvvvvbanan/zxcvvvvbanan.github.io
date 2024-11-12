@@ -9,9 +9,7 @@ sidebar: false
 # About Me
 
 
-Specialized VFX artist with a passion for FX and pipeline development. Combining strong backgrounds in computer programming and Houdini to create efficient workflows and compelling visual effects.
-
-Not limited to VFX, I devour new things whether it be software, music, film, gadgets and more.
+VFX artist with a passion for FX and pipeline development. Combining strong backgrounds in computer science and Houdini to create efficient workflows and compelling visual effects.
 
 ---
 
@@ -80,11 +78,11 @@ Custom scripts and CSS styling done to enhance your (or my) web experience. Refe
 
 ## What is this and who is this for?
 
-I enjoyed taking notes and archiving stuff since middle school including photos, documents, videos and etcetera. I wish I could show you how meticulously organized my NAS, Notion and Obsidian are (though that's not going to happen).  :smile:
+I enjoyed taking notes and archiving stuff since middle school including photos, documents, videos and etcetera. I wish I could show you how organized my NAS and Obsidian are (though that's not going to happen).  :smile:
 
-I tried maintaining a paper notebook but found its limitations to be significant. Searching and editing were nearly impossible, and the risk of loss or damage was always present. Instead, I took my notes online. Not only digitalized but stylized, portable, accessible and secure.
+I tried maintaining a paper notebook but found its inevitable limitations. Searching and editing were nearly impossible, and the risk of loss or damage was always present. Instead, I am taking my notes online. Not only digitalized but stylized, portable, accessible and secure.
 
-My posts are not official or entirely precise. Feel free to use them, but keep in mind they should not be treated as completely reliable! These are notes in my own words, sometimes broken, messy and mixed-up.
+Feel free to make use of them, but keep in mind they should not be treated as completely reliable. These are notes in my own words, sometimes broken, messy and mixed-up.
 
 I hope you find my site helpful.
 
