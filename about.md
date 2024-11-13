@@ -27,8 +27,8 @@ Seoul, On-site
 • TD tasks
 
 - Created and managed several HDAs for artists.
-- Managed cache workflows and created, managed assets as needed. 
-- Created automation tool when an artist opens assigned shot in Houdini for the first time.
+- Managed bgeo and USD cache workflows. Developed and managed assets in close collaboration with FX and lighting supervisor. 
+- Created setting automation tool which initializes settings based on project profiles.
 
 ---
  
@@ -72,11 +72,11 @@ Bachelor's degree in **Computer Science**
 
 ## What is this and who is this for?
 
-I've enjoyed taking notes and archiving stuff since middle school including photos, documents, videos and etcetera. I tried maintaining a paper notebook for a long time but found its inevitable limitations. Searching and editing were nearly impossible, and the risk of loss or damage was always present. Instead, I am taking my notes online. Not only digitalized but stylized, mobile, accessible and secure.
+I've enjoyed taking notes and archiving stuff since middle school including photos, documents, videos and etcetera. I've tried maintaining some paper notebooks for study purpose and writing bullet journals for a long time but found its inevitable limitations. Searching and editing were nearly impossible, and the risk of loss or damage was always present. Instead, I am migrating my notes. Not only digitalized but stylized, mobile, accessible and secure.
 
-Feel free to make use of them, but keep in mind they should not be treated as completely reliable. Do extra search of your own! These are notes in my own words, sometimes broken, messy and mixed-up.
+Feel free to make use of them, but keep in mind they should not be treated as completely reliable. Add some extra search of your own (which applies to almost everything). These are notes in my own words, sometimes broken, messy and mixed-up.
 
-I hope you find my site helpful, whatever you are here for.
+I hope you find my site helpful whatever you are here for!
 
 -Jim
 
@@ -84,4 +84,5 @@ I hope you find my site helpful, whatever you are here for.
 
 This is a static site created using [Vue.js](https://vuejs.org) powered [Vitepress](https://vitepress.dev).
 Build and deployement done with [Github Pages](https://pages.github.com).
-Custom scripts and CSS styling done to enhance your (or my) web experience. Refer to github repository! Wide open to everybody. 
+Custom scripts and CSS styling done to enhance your (or my) web experience.
+- Sidebar plugin by [vitepress-sidebar](https://www.npmjs.com/package/vitepress-sidebar?activeTab=readme)
