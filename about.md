@@ -72,11 +72,9 @@ Bachelor's degree in **Computer Science**
 
 ## What is this and who is this for?
 
-I've enjoyed taking notes and archiving stuff since middle school including photos, documents, videos and etcetera. I've tried maintaining some paper notebooks for study purpose and writing bullet journals for a long time but found its inevitable limitations. Searching and editing were nearly impossible, and the risk of loss or damage was always present. Instead, I am migrating my notes. Not only digitalized but stylized, mobile, accessible and secure.
+I've tried maintaining some paper notebooks and bullet journals for a long time but found its inevitable limitations. Searching and editing were nearly impossible, and the risk of loss or damage was always present. Instead, I have migrated my notes here online. Not only digitalized but stylized, mobile, accessible and secure.
 
-Feel free to make use of them, but keep in mind they should not be treated as completely reliable. Add some extra search of your own (which applies to almost everything). These are notes in my own words, sometimes broken, messy and mixed-up.
-
-I hope you find my site helpful whatever you are here for!
+Feel free to make use of them, but keep in mind they should not be treated as completely reliable. These are notes in my own words, sometimes broken, messy and mixed-up.
 
 -Jim
 
