@@ -85,4 +85,5 @@ I hope you find my site helpful whatever you are here for!
 This is a static site created using [Vue.js](https://vuejs.org) powered [Vitepress](https://vitepress.dev).
 Build and deployement done with [Github Pages](https://pages.github.com).
 Custom scripts and CSS styling done to enhance your (or my) web experience.
-- Sidebar plugin by [vitepress-sidebar](https://www.npmjs.com/package/vitepress-sidebar?activeTab=readme)
+- Sidebar  [vitepress-sidebar](https://www.npmjs.com/package/vitepress-sidebar?activeTab=readme)
+- Mathpix Markdown  [mathpix-markdown-it](https://www.npmjs.com/package/mathpix-markdown-it)
