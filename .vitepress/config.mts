@@ -78,7 +78,7 @@ export default defineConfig({
     // prefixSeparator: '.',
     //
     // ============ [ SORTING ] ============
-    manualSortFileNameByPriority: ['blog', 'houdini', 'USD', 'linux', 'VM & Container'],
+    manualSortFileNameByPriority: ['blog', 'houdini', 'USD', 'linux', 'Docker', 'Proxmox'],
     // sortFolderTo: null,
     sortMenusByName: false,
     // sortMenusByFileDatePrefix: false,

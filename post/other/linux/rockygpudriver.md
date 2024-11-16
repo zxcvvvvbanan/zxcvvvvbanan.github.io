@@ -15,9 +15,6 @@ Installing NVIDIA drivers on Rocky Linux 9.4 can be done efficiently through pac
 Installing Nvidia driver by .run file is your another option but unless you need specific driver version for your purpose, I found it annoying 
 blocking nouveau, rebuilding initramfs, stopping lightdm service and etc.
 
-This seems much simpler at least to me. Give it a try.
-
-
 ## Install Nvidia driver in Rocky 9.4
 
 ::: warning
@@ -52,11 +49,7 @@ sudo dnf install nvidia-driver nvidia-settings nvidia-smi
 
 Reboot. That's it.
 
-After reboot, make sure to run nvidia-smi to check whether it has been successfully installed.
-
-```bash
-nvidia-smi
-```
+After reboot, make sure to run `nvidia-smi` to check whether graphics driver has been successfully installed.
 
 Something like this below should appear.
 
@@ -97,4 +90,4 @@ sudo dnf install xorg-x11-drv-nvidia-cuda
 
 ### Reboot
 
-Do the `nvidia-smi` to check.
+Do `nvidia-smi` to check!
