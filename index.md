@@ -17,7 +17,7 @@ hero:
   image:
     light: /assets/images/logo.png
     dark: /assets/images/logo2.png
-
+ 
 ---
 
 
