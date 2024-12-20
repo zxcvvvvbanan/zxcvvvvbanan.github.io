@@ -1,20 +1,19 @@
 ---
 title: Mount Network Drive through samba
-date: 2024-01-02T19:41:00Z
+date: 2024-12-17T19:41:00Z
 ---
 
 ::: details Summary (AI Generation)
 <!-- DESC SEP -->
-
+Mount network drive on Linux.
 <!-- AI Summerized -->
-
 <!-- DESC SEP -->
 :::
 
 # Mount Network Drive through samba
 
 ::: warning
-Tested on Rocky Linux 9.4, Fedora Linux 40
+Tested on Rocky Linux 9.4, Fedora Linux 41
 :::
 
 
@@ -98,3 +97,32 @@ Check the result,
 *@*:/mnt/truenas$ ls
 02_Photo  05_Backup  blog_asssets Illustrator  jim  Tutorial
 ```
+
+## Edit permission
+
+Add this to your command
+
+`uid={User ID},gid={Group ID},file_mode=0755,dir_mode=0775` 
+
+
+
+## To keep the mount after reboot
+
+
+Ah, so you've noticed that the mount is gone after reboot.
+
+We have to edit `fstab `
+
+```bash
+vim /etc/fstab
+```
+
+### Append at the end of the file
+
+```bash
+//192.168.100.18/directory/fx /mnt/fx cifs username=jim,password={PASSWORD},uid=fedoracho,gid=fedoracho,file_mode=0755,dir_mode=0755 0 0
+
+```
+
+I added uid and file mode but those can be skipped.
+

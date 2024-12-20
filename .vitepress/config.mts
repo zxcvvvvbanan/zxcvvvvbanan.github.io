@@ -9,6 +9,7 @@ export default defineConfig({
       'vex': 'c'
     }
   },
+  appearance: 'force-dark',
   title: "Yongjun Cho",
   description: "",
   themeConfig: {
@@ -78,7 +79,7 @@ export default defineConfig({
     // prefixSeparator: '.',
     //
     // ============ [ SORTING ] ============
-    manualSortFileNameByPriority: ['blog', 'houdini', 'USD', 'linux', 'Docker', 'Proxmox'],
+    manualSortFileNameByPriority: ['blog', 'houdini', 'USD', 'linux', 'pipeline'],
     // sortFolderTo: null,
     sortMenusByName: false,
     // sortMenusByFileDatePrefix: false,
