@@ -221,18 +221,16 @@ The website's certificate is valid and the packets are properly encrypted, makin
 
 ## Enjoy!
 
-This project was techy. However, the process of troubleshooting, analyzing issues, and ultimately succeeding was rewarding.
+I've implemented an additional security measure.
 
-While Vaultwarden will serve as my password manager for years to come, I've implemented an additional security measure beyond.
+Case 1: If the database gets hacked, the passwords are already hashed, so there's no need to worry.
 
-Case 1. DB got hacked -> passwords are already **digest** so no need to worry about it.
+Case 2: If someone physically gains control of my Vaultwarden.
 
-Case 2. Someone physically got control of my Vaultwarden.
+My main concern is **Case 2**, so I added an extra layer of protection by:
 
-My worry is **Case 2** so I add an extra layer of protection by:
+**Vaultwarden password + Mentally storing a 3-character suffix (or numeric, which I won't disclose)**
 
-**Vaultwarden password + Mentally storing a 3-character suffix (or numeric I won't let you know neither)**
+This simple technique enhances security through "something you have" (Vaultwarden) and "something you know" (mental suffix).
 
-This simple technique will enhances security through "something you have" (Vaultwarden) and "something you know" (mental suffix).
-
-Since even a single character change completely alters the password hash, I hope this provides protection against potential attack.
+Since even a single character change completely alters the password hash, I hope this provides protection against potential attacks.
