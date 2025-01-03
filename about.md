@@ -14,17 +14,19 @@ VFX artist with a passion for FX and pipeline development. Combining strong back
 ---
 
 ### Work Experience:
+<ul class="menu">
+  <li>
+<b style="text-decoration: underline;">Dexter Studios</b>
+<span style="text-align: right; font-style: italic; display: inline-block;">Jan 22 - Present</span>
+  </li>
+</ul>
 
-- **Dexter Studios**
-Jan, 22 - Present
 
-Seoul, On-site
-
-• Shot work for feature film, game cinematic, Netflix series
+Shot work for feature film, game cinematic, Netflix series
 
 - Hellbound: Season 2 (Netflix), Gyeongseong Creature (Netflix), Yuyu Hakusho (Netflix), Alienoid, The Moon
 
-• TD tasks
+TD tasks
 
 - Created and managed several HDAs for artists.
 - Managed bgeo and USD cache workflows. Developed and managed assets in close collaboration with FX and lighting supervisor. 
@@ -62,8 +64,12 @@ Qt / Vite / Proxmox / VS Code / Vim / Dokcer / Obsidian
 
 ### Education:
 
-- **Sejong University, Seoul**
-2012-2019
+<ul class="menu">
+  <li>
+<b style="text-decoration: underline;">Sejong University</b>
+<span style="text-align: right; font-style: italic; display: inline-block;">Seoul / 2012 - 2019</span>
+  </li>
+</ul>
 
 Bachelor's degree in **Computer Science**
 
@@ -82,5 +88,13 @@ Feel free to make use of them, but keep in mind they should not be treated as co
 This is a static site created using [Vue.js](https://vuejs.org) powered [Vitepress](https://vitepress.dev).
 Build and deployement done with [Github Pages](https://pages.github.com).
 Custom scripts and CSS styling done to enhance your (or my) web experience.
-- Sidebar  [vitepress-sidebar](https://www.npmjs.com/package/vitepress-sidebar?activeTab=readme)
-- Mathpix Markdown  [mathpix-markdown-it](https://www.npmjs.com/package/mathpix-markdown-it)
+
+<ul class="menu">
+  <li>
+    Sidebar<a href="https://www.npmjs.com/package/vitepress-sidebar?activeTab=readme">vitepress-sidebar</a>
+  </li>
+
+  <li>
+    Mathpix Markdown<a href="https://www.npmjs.com/package/mathpix-markdown-it">mathpix-markdown-it</a>
+  </li>
+</ul>

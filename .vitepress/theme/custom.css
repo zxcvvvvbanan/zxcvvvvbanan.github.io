@@ -56,7 +56,7 @@ span.recent-posts {
   font-weight: 450 !important;
 }
 
-li {
+.menu li {
   display: flex;
   justify-content: space-between;
 }
