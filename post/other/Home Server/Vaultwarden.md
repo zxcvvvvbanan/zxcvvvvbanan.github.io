@@ -78,7 +78,15 @@ Access the local port 11001 to verify the interface:
 However, since we're in an HTTP environment where plaintext is transmitted directly, let's set up HTTPS. (Vaultwarden is configured to not run in an HTTP environment anyway.)
 
 
+
 ## Let's get a certificate using Certbot Let's Encrypt
+
+:::warning
+I will assume you are using router that supports management.
+
+Opeing port 80 (http) to get certificate is crucial otherwise it will fail.
+Close the port after successfully obtaining the certificate.
+:::
 
 There are several ways to issue the certificates, but I'll use Docker with certbot + standalone method which I find the easiest.
 
@@ -164,8 +172,8 @@ services:
     image: nginx
     network_mode: host
     volumes:
-      - ./default.conf:/etc/nginx/conf.d/default.conf #아래서 적을 default.conf 를 /etc/nginx.. 에 매핑할겁니다.
-      - /etc/letsencrypt:/etc/letsencrypt #SSL Certificate 가 있는 장소입니다. 아시죠?
+      - ./default.conf:/etc/nginx/conf.d/default.conf 
+      - /etc/letsencrypt:/etc/letsencrypt
 ```
 
 default.conf
