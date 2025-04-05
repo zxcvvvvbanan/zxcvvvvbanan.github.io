@@ -1,5 +1,5 @@
 ---
-title: Install Nvidia driver
+title: Install Nvidia driver 
 date: 2024-5-02T19:41:00Z
 ---
 ::: details Summary (AI Generation)
@@ -15,79 +15,83 @@ Installing NVIDIA drivers on Rocky Linux 9.4 can be done efficiently through pac
 Installing Nvidia driver by .run file is your another option but unless you need specific driver version for your purpose, I found it annoying 
 blocking nouveau, rebuilding initramfs, stopping lightdm service and etc.
 
-## Install Nvidia driver in Rocky 9.4
+# Install Nvidia driver in Fedora
 
 ::: warning
-Tested on Rocky, Fedora Linux
+Tested on Fedora 41 
 :::
 
-### Enable EPEL
+::: info
+Q) Why rpmfusion?
+1. It is easier. Manual Installation enables you to control Nvidia driver versions, but I won't choose specific version unless there is critial problem.
+
+2. Driver are automatically updated alongside your system updates.
+
+Q) Why do I have to go through MOK enrollment?
+1. Related to Secure Boot. Secure Boot is a feature provided by UEFI that ensures only signed bootloaders and kernel moduels are loaded during the boot process. To bypass Secure Boot's restrictions, Linux distributions with Secure Boot enabled use MOK (Machine Owner Key) enrollment. This allows the user to sign the NVIDIA driver kernel module with their own key and then register that key with the system’s UEFI firmware. Once the key is enrolled, the system trusts any kernel modules signed with that key, allowing the NVIDIA module to load without Secure Boot blocking it.
+:::
+
+## Keep your system up-to-date and install dependencies
 
 ```bash
-sudo dnf install epel-release
-```
+sudo dnf update
+dnf install @base-x kernel-devel kernel-headers gcc make dkms acpid libglvnd-glx libglvnd-opengl libglvnd-devel pkgconfig xorg-x11-server-Xwayland libxcb egl-wayland
 
-### Add the official NVIDIA repo
-
-```bash
-sudo dnf config-manager --add-repo https://developer.download.nvidia.com/compute/cuda/repos/rhel9/x86_64/cuda-rhel9.repo
-```
-
-### Install kernel-devel and kernel-headers used by the drivers
-
-```bash
-sudo dnf install kernel-devel-$(uname -r) kernel-headers-$(uname -r)
-```
-
-### Install Nvidia driver and misc
-
-```bash
-sudo dnf install nvidia-driver nvidia-settings nvidia-smi
-```
-
-### Reboot your system and check.
-
-Reboot. That's it.
-
-After reboot, make sure to run `nvidia-smi` to check whether graphics driver has been successfully installed.
-
-Something like this below should appear.
-
-```
-+-----------------------------------------------------------------------------------------+
-| NVIDIA-SMI 560.35.03              Driver Version: 560.35.03      CUDA Version: 12.6     |
-|-----------------------------------------+------------------------+----------------------+
-| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
-| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
-```
-
-
-## Install Nvidia driver in Fedora 40
-
-### Keep your system up-to-date
-
-```bash
- sudo dnf update
  ```
 
-### Enable RPMFusion repo
+## Block Nouveau Driver 
 
+Append blacklist nouveau to blacklist.conf
+
+```bash
+echo "blacklist nouveau" >> /etc/modprobe.d/blacklist.conf
 ```
+
+## Update grub2 Configuration
+
+```bash
+grub2-mkconfig -o /boot/grub2/grub.cfg
+```
+
+## Generate initramfs
+
+```bash
+dracut /boot/initramfs-$(uname -r).img $(uname -r)
+```
+
+## Enable RPMFusion repo
+
+```bash
 sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
 ```
 
-### Install Nvidia diver
+## Install Nvidia diver
 
 ```bash
 sudo dnf install akmod-nvidia
 ```
 
-### Optional for CUDA 
+## Optional for CUDA 
 
 ```bash
 sudo dnf install xorg-x11-drv-nvidia-cuda
 ```
 
-### Reboot
+## After Installation
 
-Do `nvidia-smi` to check!
+Asking you to enable 'Nvidia Linux Graphics Driver' will pop up from your software application. Enable it.
+
+![](/assets/blog/pics/gpuinstall/1.png)
+
+Remember your MOK password. UEFI will require this password on your MOK enrollment process.
+Exposed but I don't care. How would you use it to hack my kernel anyways?
+
+![](/assets/blog/pics/gpuinstall/2.png)
+
+## Reboot and enroll MOK
+
+![](/assets/blog/pics/gpuinstall/3.png)
+
+Now, reboot. Follow the process.
+
+Do `nvidia-smi` to check whether your Nvidia driver has beeen installed.
