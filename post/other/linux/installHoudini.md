@@ -14,27 +14,12 @@ Installing SideFX Houdini on Linux systems like Rocky Linux 9.4 involves a few m
 Tested on Rocky, Fedora Linux
 :::
 
-
-# Install SideFX Houdini in Rocky 9.4
-
-## Intro
-
-To whom it may concern.
-
-You have chosen difficult way to do get your work done.
-
-Getting your stuff done in various environment might help you through your career especially when
-troubleshooting. 
-
-So, I would say it is a good choice!
-
-Let me walk you through.
-
+# Install SideFX Houdini
 
 ## Get Houdini install file
 
 :::warning
-Downloading Launcher may differ and will not covered in this post.
+Installing through 'Launcher' will not be covered in this post.
 :::
 
 ## Unzip your tar.gz
@@ -109,8 +94,6 @@ sudo cp /usr/lib/sesi/sesinetd.service /etc/systemd/system/
 sudo systemctl enable sesinetd.
 ```
 
-
-
 #### Result
 ```
 Synchronizing state of sesinetd.service with SysV service script with /usr/lib/systemd/systemd-sysv-install.
@@ -137,5 +120,20 @@ Uncomment the following line
 
 ```
 #WaylandEnable=false
+```
+
+### After Changing to X11
+
+Houdini will not detect your GPU as OpenCL driver.
+
+```bash
+dnf install xorg-x11-drv-nvidia-cuda
+```
+
+### Verify OpenCL with clinfo
+
+```bash
+dnf install clinfo
+clinfo
 ```
 
