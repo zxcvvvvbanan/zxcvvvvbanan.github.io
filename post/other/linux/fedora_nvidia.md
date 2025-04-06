@@ -1,21 +1,16 @@
 ---
-title: Install Nvidia driver 
+title: Install Nvidia Driver 
 date: 2025-4-03T19:41:00Z
 ---
 ::: details Summary (AI Generation)
 <!-- DESC SEP -->
-Installing NVIDIA drivers on Rocky Linux 9.4 can be done efficiently through package repositories rather than using the .run installer file. The process involves enabling EPEL repository, adding the official NVIDIA repo, installing required kernel packages, and installing the NVIDIA driver packages through DNF. This method avoids manual steps like blocking nouveau and rebuilding initramfs, making it a simpler and more maintainable approach for most users.
+Installing NVIDIA drivers on **Fedora 41** is best done using RPM Fusion repositories instead of the `.run` installer. This approach simplifies the setup by avoiding manual tasks like blocking `nouveau`, rebuilding `initramfs`, or stopping display managers. By using `akmod-nvidia` from RPM Fusion, the driver integrates cleanly with system updates and supports Secure Boot via MOK enrollment, making it a more maintainable and user-friendly option.
 <!-- AI Summerized -->
 
 <!-- DESC SEP -->
 :::
 
-#### Intro
-
-Installing Nvidia driver by .run file is your another option but unless you need specific driver version for your purpose, I found it annoying 
-blocking nouveau, rebuilding initramfs, stopping lightdm service and etc.
-
-# Install Nvidia driver in Fedora
+# Install Nvidia driver on Fedora
 
 ::: warning
 Tested on Fedora 41 
