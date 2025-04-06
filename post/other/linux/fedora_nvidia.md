@@ -1,6 +1,6 @@
 ---
 title: Install Nvidia driver 
-date: 2024-5-02T19:41:00Z
+date: 2025-4-03T19:41:00Z
 ---
 ::: details Summary (AI Generation)
 <!-- DESC SEP -->
@@ -31,7 +31,7 @@ Q) Why do I have to go through MOK enrollment?
 1. Related to Secure Boot. Secure Boot is a feature provided by UEFI that ensures only signed bootloaders and kernel moduels are loaded during the boot process. To bypass Secure Boot's restrictions, Linux distributions with Secure Boot enabled use MOK (Machine Owner Key) enrollment. This allows the user to sign the NVIDIA driver kernel module with their own key and then register that key with the system’s UEFI firmware. Once the key is enrolled, the system trusts any kernel modules signed with that key, allowing the NVIDIA module to load without Secure Boot blocking it.
 :::
 
-## Keep your system up-to-date and install dependencies
+## Keep Your System up-to-date and Install Dependencies
 
 ```bash
 sudo dnf update
@@ -39,7 +39,7 @@ dnf install @base-x kernel-devel kernel-headers gcc make dkms acpid libglvnd-glx
 
  ```
 
-## Block Nouveau Driver 
+## Block Nouveau Driver to Avoid Conflict
 
 Append blacklist nouveau to blacklist.conf
 
@@ -53,11 +53,15 @@ echo "blacklist nouveau" >> /etc/modprobe.d/blacklist.conf
 grub2-mkconfig -o /boot/grub2/grub.cfg
 ```
 
-## Generate initramfs
+Because the NVIDIA driver installation made changes to the bootloader configuration—particularly for kernel parameters or initrd setup, you run this to re generate grub2 config.
+
+## Rebuilding initramfs
 
 ```bash
 dracut /boot/initramfs-$(uname -r).img $(uname -r)
 ```
+
+We have blocked Nouveau.
 
 ## Enable RPMFusion repo
 
@@ -71,12 +75,6 @@ sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-rele
 sudo dnf install akmod-nvidia
 ```
 
-## Optional for CUDA 
-
-```bash
-sudo dnf install xorg-x11-drv-nvidia-cuda
-```
-
 ## After Installation
 
 Asking you to enable 'Nvidia Linux Graphics Driver' will pop up from your software application. Enable it.
@@ -84,7 +82,6 @@ Asking you to enable 'Nvidia Linux Graphics Driver' will pop up from your softwa
 ![](/assets/blog/pics/gpuinstall/1.png)
 
 Remember your MOK password. UEFI will require this password on your MOK enrollment process.
-Exposed but I don't care. How would you use it to hack my kernel anyways?
 
 ![](/assets/blog/pics/gpuinstall/2.png)
 
@@ -92,6 +89,6 @@ Exposed but I don't care. How would you use it to hack my kernel anyways?
 
 ![](/assets/blog/pics/gpuinstall/3.png)
 
-Now, reboot. Follow the process.
+Now, reboot. Follow the process or find the guide on Google. There are plenty step-by-step guides.
 
 Do `nvidia-smi` to check whether your Nvidia driver has beeen installed.
