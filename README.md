@@ -1,8 +1,8 @@
 ## Well, this is just README of my website. 
 
-### Nothing fun exists here, visit my website instead!
+### Nothing fun exists in this repo. Visit my website instead!
 
-## [WEBSITE](https://zxcvvvvbanan.github.io)
+### [https://zxcvvvvbanan.github.io](https://zxcvvvvbanan.github.io)
 
 
 Here are some explanation! 
