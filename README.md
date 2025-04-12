@@ -1,6 +1,7 @@
 ## Well, this is just README of my website. 
 
-Why on earth would you clone this repo but here is some explanation.
+Nothing fun exists here, visit my website instead! [WEBSITE](https://zxcvvvvbanan.github.io)
+Here are some explanation! 
 
 ## Purpose
 
