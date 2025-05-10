@@ -14,18 +14,13 @@ Demonstrates how to programmatically manage Houdini nodes using Python, covering
 
 # Manage Node with Python
 
-::: tip
-Perform this in Python Shell inside Houdini.  \
-Assign variable for neat code. 
-:::
-
 ## Basics
 
 ### Create Node
 ```python
->>>import hou
->>>h = hou.node("/obj") //Given a path string, returns a Node object. 
->>>h.createNode("geo") //create a new node of type as a child of this node. "/obj" in this case
+
+>>>h = hou.node("/obj") // instance of class hou.OpNode is returned.
+>>>h.createNode("geo") // this method create a new node of type as a child of this node. "/obj" in this case
 ```
 
 Now, we have a geometry SOP created in "/obj". 
@@ -51,9 +46,12 @@ Let's dive in to geometry we just created and create a sphere.
 
 ### Change Color, Set Comment, Make Comment Visible
 
-Easy, eh? Except making setting comment visibility. Why not just setCommentVisible(True)?
+Use False flag to make it invisible, and setComment None to remove the comment.
+`setGenericFlag(flag, value)` sets the value of the specified flag based on the bool value argument. 
 
-Anyways, use False flag to make it invisible, and setComment None to remove the comment.
+Here are some examples, [nodeFlag - SideFX](https://www.sidefx.com/docs/houdini/hom/hou/nodeFlag.html)
+
+Compress, Current, Debug, Display, ...
 
 ```python
 >>>sphere.setColor(hou.Color(1,0,0))
@@ -73,11 +71,6 @@ Anyways, use False flag to make it invisible, and setComment None to remove the 
 
 It returns an instance of the hou.NodeType class, specifically a hou.SopNodeType. This object represents the type of the node. To interpret this, hou.SopNodeType object is returned, and the specific type of SOP node it represents is "sphere".
 
-::: warning
-What is Obejct, Class and Instance?
-It may be a good time to stop and take a look at this python basics documentation.
-LINK
-:::
 
 ```python
 >>>sphere.type().name()
