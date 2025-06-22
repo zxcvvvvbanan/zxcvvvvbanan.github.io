@@ -86,42 +86,23 @@ pyenv versions
 
 ## Rez Install Preparation
 
-I recommend you create a dev directory. I love to put it under `/home/yongjuncho/DEV`. Anyways,
+I recommend you create a dev directory. I love to put it under `/home/yongjuncho/DEV`.
 
 ```bash
 git clone https://github.com/AcademySoftwareFoundation/rez
 ```
 
-The Rez guide suggests running `python ./install.py`, but the installation defaults to `/opt/rez`, which requires privileged permissions, and I prefer not to install it there.
+The Rez guide suggests running `python ./install.py`, and this installs rez to `/opt/rez`, which requires privileged permissions, and I prefer not to install it there.
 
 Also, note that sudo python won't work because sudo usually resets or modifies the PATH environment. You can either configure sudo to use the same environment as your user shell or specify the exact Python version you want to use with sudo.
 
-I will not do any of the above. Instead, let's modify the `install.py`. You may skip this step. 
+Use `python ./install.py {YOUR PATH}` to change installation path.
 
-```bash
-cd rez
-vim install.py
-```
-
-Locate the following line and edit it to your desired path:
-
-```python
-....
-    # determine install path
-    if opts.DIR:
-        path = opts.DIR
-    elif opts.as_rez_package:
-        path = "~/packages"
-    else:
-        path = "/opt/rez" # EDIT PATH
-```
-
-Save and exit.
 
 ## Install Rez
 
 ```bash
-python ./install.py
+python ./install.py {YOUR PATH}
 ```
 
 ```bash
