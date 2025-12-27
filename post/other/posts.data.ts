@@ -1,7 +1,6 @@
-// posts.data.js
 import { createContentLoader } from 'vitepress'
 
-export default createContentLoader('/post/other/*/*.md', {
+export default createContentLoader('post/other/*/*.md', {
     excerpt: excerptFn,
     transform(raw) {
       // index.md 파일 제외

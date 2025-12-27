@@ -15,9 +15,30 @@ VFX artist with a passion for FX and pipeline development. Combining strong back
 
 ### Work Experience:
 <ul class="menu">
-  <li>
-<b style="text-decoration: underline;">Dexter Studios</b>
-<span style="text-align: right; font-style: italic; display: inline-block;">Jan 22 - Present</span>
+  <li style="display:flex; align-items:center; justify-content:space-between; gap:12px;">
+    <div style="display:inline-flex; align-items:center; gap:8px;">
+      <img src="/assets/icon/eyelinestudios_logo.jpg" alt="Eyeline" width="50" height="50" style="display:inline-block;">
+      <b style="text-decoration: bold; margin:0;">Eyeline Studios</b> - Seoul
+    </div>
+    <span style="font-style: italic; white-space:nowrap;">Oct 
+    25 - Present</span>
+  </li>
+</ul>
+
+
+Shot work for feature film, Netflix series
+
+- Avatar: The Last Airbender: Season 2
+
+<br><br><br>
+
+<ul class="menu">
+  <li style="display:flex; align-items:center; justify-content:space-between; gap:12px;">
+    <div style="display:inline-flex; align-items:center; gap:8px;">
+      <img src="/assets/icon/dexter.jpg" alt="Eyeline" width="50" height="50" style="display:inline-block;">
+      <b style="text-decoration: bold; margin:0;">Dexter Studios (덱스터스튜디오)</b> - Seoul
+    </div>
+<span style="text-align: right; font-style: italic; display: inline-block;">Jan 22 - Sept 25</span>
   </li>
 </ul>
 
@@ -33,7 +54,8 @@ TD tasks
 - Created setting automation tool which initializes settings based on project profiles.
 
 ---
- 
+---
+
 ### Main Stacks:
 
 <p align="left" style="display: flex; gap: 4px; flex-wrap: wrap;">
@@ -66,7 +88,10 @@ Qt / Vite / Proxmox / VS Code / Vim / Dokcer / Obsidian
 
 <ul class="menu">
   <li>
-<b style="text-decoration: underline;">Sejong University</b>
+    <div style="display:inline-flex; align-items:center; gap:8px;">
+      <img src="/assets/icon/Sejong_University_logo.svg.png" alt="Eyeline" width="50" height="50" style="display:inline-block;">
+      <b style="text-decoration: underline; margin:0;">Sejong University (세종대학교)</b> - Seoul
+    </div>
 <span style="text-align: right; font-style: italic; display: inline-block;">Seoul / 2012 - 2019</span>
   </li>
 </ul>

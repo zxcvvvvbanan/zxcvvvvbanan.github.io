@@ -22,13 +22,13 @@ hero:
 
 
 <script setup>
-import { data as posts } from '.vitepress/posts.data'
-import formatDate from '.vitepress/theme/utils/formatDate';
+import { data as posts } from './.vitepress/posts.data'
+import formatDate from './.vitepress/theme/utils/formatDate';
 </script>
 
 ## Recent Posts
 
-<ul class="menu">
+<ul class="menu" v-if="posts && posts.length">
   <template v-for="post in posts.slice(0,5)" :key="post.url">
     <li>
       <a :href="post.url" class="recent-posts">{{ post.frontmatter.title }}</a>
