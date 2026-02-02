@@ -1,6 +1,6 @@
 ---
-title: HDA Manage Tips
-date: 2025-1-02T19:41:00Z
+title: Pre-Post Render Script 활용
+date: 2026-2-01T19:41:00Z
 ---
 ::: details Summary (AI Generation)
 <!-- DESC SEP --> 
