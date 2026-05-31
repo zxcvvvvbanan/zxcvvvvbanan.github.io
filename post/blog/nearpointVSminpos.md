@@ -16,11 +16,9 @@ date: 2025-1-11T19:41:00Z
 
 Given a position in world space, returns the position of the closest point on a given geometry.
 
-<<<<<<< HEAD
-vector  minpos(<geometry>geometry, vector point)
-=======
+
 `vector  minpos(<geometry>geometry, vector point)`
->>>>>>> 90dde21 (fix build fail)
+
 -> returns vector position
 
 
@@ -29,11 +27,7 @@ vector  minpos(<geometry>geometry, vector point)
 Finds the closest point in a geometry.
 This retrieves more data compared to 'minpos'
 
-<<<<<<< HEAD
-int  nearpoint(<geometry>geometry, vector pt)
-=======
 `int  nearpoint(<geometry>geometry, vector pt)`
->>>>>>> 90dde21 (fix build fail)
 -> returns number of point
 
 ### Summary 
