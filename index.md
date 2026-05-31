@@ -14,9 +14,10 @@ hero:
     - theme: alt
       text: Blog
       link: /post/blog
-  image:
-    light: /assets/images/logo.png
-    dark: /assets/images/logo2.png
+    - theme: alt
+      text: AI / ML
+      link: /post/ai-ml
+
  
 ---
 

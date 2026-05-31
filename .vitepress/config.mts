@@ -22,6 +22,7 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'About', link: '/about' },
       { text: 'Blog', link: '/post/blog/'},
+      { text: 'AI / ML', link: '/post/ai-ml/'},
       { text: 'Houdini', link: '/post/houdini/'},
       { text: 'Other', link: '/post/other/linux/'}
     ],

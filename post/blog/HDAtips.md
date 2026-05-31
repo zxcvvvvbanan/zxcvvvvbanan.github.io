@@ -1,47 +1,61 @@
 ---
-title: HDA Manage Tips
-date: 2025-1-02T19:41:00Z
+title: HDA Creation and Versioning
+date: 2026-4-12T19:41:00Z
 ---
 ::: details Summary (AI Generation)
 <!-- DESC SEP --> 
-HDA 관리를 위해 Asset Definition Toolbar를 활용하여 경로와 어셋 위치를 확인하고, 버전 관리는 개발 버전(v0.5)과 배포 버전(v1.x)을 구분하여 아티스트의 작업 흐름에 영향을 주지 않도록 한다
+For HDA management, use the Asset Definition Toolbar to verify paths and asset locations, and maintain separate versioning for development versions (v0.5) and release versions (v1.x) to avoid disrupting artists' workflows.
 <!-- AI Summerized -->
 <!-- DESC SEP -->
 :::
 
 
-# HDA 관리 팁
+# HDA Creation and Versioning
 
-## Asset Definition Toolbar 사용 
+## Using the Asset Definition Toolbar
 
-스튜디오에서 사용하는 경우 `Asset Definition Toolbar` 를 켜놓고 사용하기를 권장한다. HDA를 개발하고 관리해야 할 때, 버전을 전환하거나 GIT 환경에서 해당 어셋이 클론된 레포지토리에서 작업 중인지 확인할 수 있기 때문인데 상당히 헷갈리기 쉽기 때문이다.
+When editing HDA in a studio environment, I find it handy to keep the `Asset Definition Toolbar` enabled. When developing and managing HDAs, this toolbar helps you switch between versions and confirm whether you're working in a dev or release environment.
 
-어셋 우클릭 후 `Show in Asset Manager' 에서 변경할 수 있다.
+You can access it by right-clicking an asset and selecting `Show in Asset Manager`.
 
 ![An image](/assets/blog/hda/3.png)
 
 ![An image](/assets/blog/hda/2.png)
 
+* can verify your working environment. meaning that when you're unsure where an asset originated, you can quickly check its actual location.
 
-* dev 환경에서 작업하고 있는지 경로를 통해 확인할 수 있다.
-
-* 가끔 이 자식은 어디서 나타난거지? 궁금할 때 어셋 위치를 확인할 수 있다.
-
-* 버전 이동이 간편하다.
+* Switching between versions is streamlined.
 
 
-## 개발 버전은 1 아래로, 배포는 1 이상으로
+## For Frequent Asset Releases
 
-스튜디오가 크고 전문 파이프라인 팀에서 주기적으로 rez 를 통해 새 배포를 해주면 이런 단위의 어셋 버저나이징이 상관 없을것이다. 하지만 그 수정 단위가 마이너하고 빠르게 핫픽스를 공유할때 개인적으로 좋은 방법이라고 생각한다. 아티스트가 작업하는데에 흐름을 끊지 않고 나도 마음편하게 개발할 수 있기 때문이다.
+::: tip
+This strategy is practical and effective **for small studios sharing frequent hotfixes without interrupting artist workflows**. However, as team size grows or more complex scenarios emerge, a more robust versioning system becomes necessary.
+:::
 
-바로 1보다 작은 수의 소수점 버전을 개발 및 레퍼런스로 두고 incremental 하게 업데이트 하는 방법이다.
+If your studio is large with a dedicated pipeline team that regularly releases new versions through rez, this level of asset versioning might be unnecessary. However, when fixes are minor and you need to share hotfixes quickly, this approach has been effective. It allows artists to work uninterrupted while giving developers peace of mind during development.
 
-**현행 버전의 어셋을 수정하는것은 치명적인 결과를 초래한다.** (사용중인 어셋에 버튼이 사라지거나 파라미터가 없어진다면 곧바로 에러가 난다.) 그렇기 때문에 버전 카피를 하나 해서 1보다 작은 수로 지정 한다. 그리고 수정 배포를 할 때, 1.1 로 배포를 하면 된다. 후디니는 여러 버전이 존재할 경우 가장 상위 버전만 불러오기 때문에 이제는 작업자들이 새로 꺼낼때마다 1.1이 나올것이고 기존에 1.0들은 네트워크에 잘 붙어있으니 문제가 되지 않는다.
+The method is simple: maintain development versions with decimal numbers below 1.0 and update them incrementally.
 
-- 지금 아티스트들이 사용중인 1.0에는 영향이 없다. 그냥 seamless 하게 사용이 가능하다.
-- 새로 꺼내는 노드들 부터 1.1 이 꺼내지기 때문에 아무린 불편함이 없다.
+**Modifying a currently deployed asset version can have catastrophic consequences.** (If buttons disappear from an in-use asset or parameters are removed, errors occur immediately.) To prevent this, create a copy of the current version and assign it a number below 1.0. When deploying fixes, release it as 1.1. Since Houdini loads latest (highest numbered) version when multiple versions exist, new nodes will pull 1.1, while existing 1.0 instances remain stable on the network. 
 
-### 요약 (예제)
+[SideFX Documentation](https://www.sidefx.com/docs/houdini/assets/create#version)
 
-- 어셋 개발은 v0.5, 배포된 버전은 v1.2 라 할 때, 
-- 수정이 필요한 배포된 어셋은 현행 버전의 카피를 만들어 v0.5에 덮어쓰고 거기서 다시 진행 후 v1.3 으로 배포
+:::warning
+More version in asset library will occupy space in disk of course.
+:::
+
+- Current v1.0 instances used by artists are unaffected and continue to work seamlessly.
+- New nodes pulled from the network will use v1.1 with no disruption.
+
+Cases the strategy doesn't address:
+
+- When multiple artists/developers need different versions simultaneously
+- When fixing a bug in v1.0 while v1.3 is actively in use
+- These situations require additional conventions or asset manager rules
+
+
+### Summary (Example)
+
+- If asset development is at v0.5 and the deployed version is v1.2:
+- To fix a deployed asset, copy the current version, overwrite v0.5, make your changes, then deploy as v1.3
